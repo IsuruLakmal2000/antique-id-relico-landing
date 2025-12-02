@@ -15,6 +15,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Relico - Antique Identifier App",
   description: "Identify antiques instantly with AI. Discover the history and value of your treasures.",
+  icons: {
+    icon: "/Assets/appicon1.jpg",
+    shortcut: "/Assets/appicon1.jpg",
+    apple: "/Assets/appicon1.jpg",
+  },
 };
 
 export default function RootLayout({

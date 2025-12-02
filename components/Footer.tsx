@@ -14,7 +14,7 @@ export function Footer() {
                             <span className="text-xl font-serif font-bold text-gold tracking-wide">Relico</span>
                         </Link>
                         <p className="text-cream/60 text-sm leading-relaxed">
-                            The world's most advanced AI-powered antique identifier. Discover the hidden value in your home.
+                            The world&apos;s most advanced AI-powered antique identifier. Discover the hidden value in your home.
                         </p>
                     </div>
 
@@ -33,7 +33,7 @@ export function Footer() {
                         <ul className="space-y-4 text-sm text-cream/60">
                             <li><Link href="#" className="hover:text-gold transition-colors">About Us</Link></li>
                             <li><Link href="#" className="hover:text-gold transition-colors">Careers</Link></li>
-                            <li><Link href="#" className="hover:text-gold transition-colors">Blog</Link></li>
+                            <li><Link href="/blog" className="hover:text-gold transition-colors">Blog</Link></li>
                             <li><Link href="#" className="hover:text-gold transition-colors">Contact</Link></li>
                         </ul>
                     </div>

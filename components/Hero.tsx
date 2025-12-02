@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 import { motion } from "framer-motion";
 import { ArrowRight, Star } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
     return (
@@ -48,38 +49,20 @@ export function Hero() {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="relative"
                 >
-                    {/* Decorative elements */}
-                    <div className="absolute -top-10 -right-10 w-64 h-64 bg-gold/10 rounded-full blur-3xl" />
-                    <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-mahogany/5 rounded-full blur-3xl" />
+                    {/* Decorative elements removed as requested */}
+                    {/* <div className="absolute -top-10 -right-10 w-64 h-64 bg-gold/10 rounded-full blur-3xl" /> */}
+                    {/* <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-mahogany/5 rounded-full blur-3xl" /> */}
 
                     {/* Phone Mockup Placeholder */}
-                    <div className="relative mx-auto w-[280px] h-[580px] bg-brown-dark rounded-[3rem] border-8 border-brown-dark shadow-2xl overflow-hidden">
-                        {/* Screen Content */}
-                        <div className="w-full h-full bg-cream relative">
-                            {/* Header */}
-                            <div className="absolute top-0 w-full h-24 bg-gradient-to-b from-black/50 to-transparent z-10 p-6 text-white">
-                                <div className="w-full flex justify-between items-center mt-2">
-                                    <div className="w-6 h-6 rounded-full bg-white/20" />
-                                    <div className="w-6 h-6 rounded-full bg-white/20" />
-                                </div>
-                            </div>
-
-                            {/* Image Placeholder */}
-                            <div className="w-full h-3/5 bg-gray-200 flex items-center justify-center">
-                                <span className="text-gray-400 text-sm">Antique Image</span>
-                            </div>
-
-                            {/* Bottom Sheet */}
-                            <div className="absolute bottom-0 w-full h-2/5 bg-white rounded-t-3xl p-6 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
-                                <div className="w-12 h-1 bg-gray-200 rounded-full mx-auto mb-6" />
-                                <div className="h-6 w-3/4 bg-gray-200 rounded mb-3" />
-                                <div className="h-4 w-1/2 bg-gray-100 rounded mb-6" />
-                                <div className="flex gap-4">
-                                    <div className="h-12 w-full bg-gold/20 rounded-xl" />
-                                    <div className="h-12 w-full bg-gray-100 rounded-xl" />
-                                </div>
-                            </div>
-                        </div>
+                    <div className="relative mx-auto">
+                        <Image
+                            src="/Assets/header.png"
+                            alt="Relico App Interface"
+                            width={500}
+                            height={1000}
+                            className="mx-auto w-full max-w-[300px] md:max-w-[400px] lg:max-w-[500px] h-auto"
+                            priority
+                        />
                     </div>
                 </motion.div>
             </div>
