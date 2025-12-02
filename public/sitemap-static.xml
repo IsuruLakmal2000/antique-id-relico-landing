@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://antiqueidentifier.site/</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Blog Index -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Post 1: How to Identify Antique Furniture -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog/how-to-identify-antique-furniture</loc>
+    <lastmod>2023-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Post 2: How to Determine Price of Antique -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog/how-to-determine-price-of-antique</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Post 3: How to Identify Real vs Fake Antiques -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques</loc>
+    <lastmod>2023-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Post 4: Top 5 High-Value Antiques -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog/top-5-high-value-antiques-to-look-for</loc>
+    <lastmod>2023-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Post 5: Antique Silver Hallmarks -->
+  <url>
+    <loc>https://antiqueidentifier.site/blog/antique-silver-hallmarks-explained</loc>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -31,6 +31,7 @@ export function Navbar() {
                             src="/Assets/appicon1.jpg"
                             alt="Relico Logo"
                             fill
+                            sizes="32px"
                             className="object-contain"
                         />
                     </div>

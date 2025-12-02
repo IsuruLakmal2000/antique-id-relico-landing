@@ -31,6 +31,7 @@ export function AppShowcase() {
                             src={src}
                             alt={`App Screenshot ${index + 1}`}
                             fill
+                            sizes="260px"
                             className="object-cover"
                         />
                     </motion.div>

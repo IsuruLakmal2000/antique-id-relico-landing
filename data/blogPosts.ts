@@ -1,28 +1,28 @@
 export interface BlogPost {
-    id: string;
-    title: string;
-    slug: string;
-    excerpt: string;
-    content: string;
-    author: string;
-    date: string;
-    readTime: string;
-    category: string;
-    imageUrl: string;
+  id: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  content: string;
+  author: string;
+  date: string;
+  readTime: string;
+  category: string;
+  imageUrl: string;
 }
 
 export const blogPosts: BlogPost[] = [
-    {
-        id: "1",
-        title: "How to Identify Antique Furniture: A Comprehensive Guide",
-        slug: "how-to-identify-antique-furniture",
-        excerpt: "Discover the secrets to identifying genuine antique furniture. Learn about joinery, wood types, and signs of age that reveal the true history of your pieces.",
-        author: "Eleanor Sterling",
-        date: "October 15, 2023",
-        readTime: "8 min read",
-        category: "Identification",
-        imageUrl: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=800",
-        content: `
+  {
+    id: "1",
+    title: "How to Identify Antique Furniture: A Comprehensive Guide",
+    slug: "how-to-identify-antique-furniture",
+    excerpt: "Discover the secrets to identifying genuine antique furniture. Learn about joinery, wood types, and signs of age that reveal the true history of your pieces.",
+    author: "Eleanor Sterling",
+    date: "October 15, 2023",
+    readTime: "8 min read",
+    category: "Identification",
+    imageUrl: "https://images.unsplash.com/photo-1606241018160-4985a8ab5dec?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
       <h2>The Art of Antique Identification</h2>
       <p>Walking into an antique shop or stumbling upon a dusty piece of furniture at an estate sale can be thrilling. Is it a hidden gem worth thousands, or a clever reproduction? Knowing how to identify antique furniture is a skill that takes time to master, but there are several key indicators that can help you determine the age and authenticity of a piece.</p>
 
@@ -68,18 +68,18 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Identifying antique furniture is like being a detective. You have to look for clues in the construction, materials, and wear. While these tips are a great starting point, consulting with an expert or using a reliable identification app can give you the confirmation you need. Happy hunting!</p>
     `
-    },
-    {
-        id: "2",
-        title: "How to Determine Price of Antique: Valuation Guide",
-        slug: "how-to-determine-price-of-antique",
-        excerpt: "Found something old? Learn the factors that determine antique value, from rarity and condition to provenance and market trends.",
-        author: "Arthur P. Valuation",
-        date: "October 22, 2023",
-        readTime: "10 min read",
-        category: "Valuation",
-        imageUrl: "https://images.unsplash.com/photo-1569585722288-236a66630f9c?auto=format&fit=crop&q=80&w=800",
-        content: `
+  },
+  {
+    id: "2",
+    title: "How to Determine Price of Antique: Valuation Guide",
+    slug: "how-to-determine-price-of-antique",
+    excerpt: "Found something old? Learn the factors that determine antique value, from rarity and condition to provenance and market trends.",
+    author: "Arthur P. Valuation",
+    date: "October 22, 2023",
+    readTime: "10 min read",
+    category: "Valuation",
+    imageUrl: "https://images.unsplash.com/photo-1516547375098-9efa2ae4f0c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
       <h2>What is My Antique Worth?</h2>
       <p>One of the most common questions in the world of antiques is, "What is it worth?" Whether you've inherited a family heirloom or found a curious object at a flea market, determining the value of an antique involves several critical factors. It's not just about age; it's about demand, condition, and history.</p>
 
@@ -129,18 +129,18 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Determining the price of an antique is an art and a science. By carefully examining your item and researching the current market, you can get a good estimate. However, for high-value items, a professional appraisal is always recommended to ensure you don't undersell your treasure.</p>
     `
-    },
-    {
-        id: "3",
-        title: "How to Identify Real vs. Fake Antiques",
-        slug: "how-to-identify-real-vs-fake-antiques",
-        excerpt: "Don't get scammed. Learn the tell-tale signs of reproductions and fakes in pottery, silver, and furniture.",
-        author: "Sarah Jenkins",
-        date: "November 2, 2023",
-        readTime: "7 min read",
-        category: "Authentication",
-        imageUrl: "https://images.unsplash.com/photo-1590623696898-05b14188c87e?auto=format&fit=crop&q=80&w=800",
-        content: `
+  },
+  {
+    id: "3",
+    title: "How to Identify Real vs. Fake Antiques",
+    slug: "how-to-identify-real-vs-fake-antiques",
+    excerpt: "Don't get scammed. Learn the tell-tale signs of reproductions and fakes in pottery, silver, and furniture.",
+    author: "Sarah Jenkins",
+    date: "November 2, 2023",
+    readTime: "7 min read",
+    category: "Authentication",
+    imageUrl: "https://images.unsplash.com/photo-1551810368-45c2c58f6e74?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
       <h2>Spotting the Fakes</h2>
       <p>The antique market is unfortunately full of reproductions and outright fakes. As prices for genuine antiques rise, so does the incentive for forgers. Whether you are a seasoned collector or a novice, learning to spot a fake is essential to protecting your investment.</p>
 
@@ -183,18 +183,18 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Educating yourself is the best defense against fakes. Handle as many genuine items as you can—go to museums and reputable antique shops to get a feel for the real thing. The more you see the real deal, the easier it will be to spot the imposters.</p>
     `
-    },
-    {
-        id: "4",
-        title: "Top 5 High-Value Antiques to Look For",
-        slug: "top-5-high-value-antiques-to-look-for",
-        excerpt: "Treasure hunting? Keep an eye out for these 5 categories of antiques that consistently fetch high prices in today's market.",
-        author: "James Hunter",
-        date: "November 10, 2023",
-        readTime: "6 min read",
-        category: "Collecting",
-        imageUrl: "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?auto=format&fit=crop&q=80&w=800",
-        content: `
+  },
+  {
+    id: "4",
+    title: "Top 5 High-Value Antiques to Look For",
+    slug: "top-5-high-value-antiques-to-look-for",
+    excerpt: "Treasure hunting? Keep an eye out for these 5 categories of antiques that consistently fetch high prices in today's market.",
+    author: "James Hunter",
+    date: "November 10, 2023",
+    readTime: "6 min read",
+    category: "Collecting",
+    imageUrl: "https://images.unsplash.com/photo-1706586344321-6ca6027931e1?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
       <h2>Hidden Treasures in Plain Sight</h2>
       <p>You don't need to be a millionaire to start investing in antiques. Many valuable items are still hiding in attics, thrift stores, and garage sales, waiting to be discovered. Here are five categories of antiques that are currently in high demand and can fetch impressive prices.</p>
 
@@ -221,18 +221,18 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Keep your eyes peeled! The next time you're browsing a tag sale, you might just spot one of these high-value items. Remember to do your research on your phone before you buy—knowledge is profit.</p>
     `
-    },
-    {
-        id: "5",
-        title: "Antique Silver Hallmarks Explained",
-        slug: "antique-silver-hallmarks-explained",
-        excerpt: "Unlock the code of silver hallmarks. Learn how to read the tiny stamps that tell you the purity, maker, and date of your silver pieces.",
-        author: "Elizabeth Sterling",
-        date: "November 18, 2023",
-        readTime: "9 min read",
-        category: "Guides",
-        imageUrl: "https://images.unsplash.com/photo-1601134990366-d8f852e697c1?auto=format&fit=crop&q=80&w=800",
-        content: `
+  },
+  {
+    id: "5",
+    title: "Antique Silver Hallmarks Explained",
+    slug: "antique-silver-hallmarks-explained",
+    excerpt: "Unlock the code of silver hallmarks. Learn how to read the tiny stamps that tell you the purity, maker, and date of your silver pieces.",
+    author: "Elizabeth Sterling",
+    date: "November 18, 2023",
+    readTime: "9 min read",
+    category: "Guides",
+    imageUrl: "https://images.unsplash.com/photo-1466027397211-20d0f2449a3f?q=80&w=3218&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
       <h2>Reading the Story in Silver</h2>
       <p>Silver has been hallmarked for centuries, providing one of the most reliable systems for dating and identifying antiques. Those tiny, often cryptic stamps on the back of a spoon or the bottom of a teapot contain a wealth of information. Learning to read them allows you to know exactly what you have.</p>
 
@@ -280,5 +280,5 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Hallmarks are a fascinating code that connects you directly to the history of the piece. Once you start looking for them, you'll never look at a piece of silverware the same way again.</p>
     `
-    }
+  }
 ];

@@ -35,8 +35,21 @@ export function Hero() {
                     </div>
                     <div className="mt-8 flex items-center gap-4 text-sm text-brown-dark/60">
                         <div className="flex -space-x-2">
-                            {[1, 2, 3, 4].map((i) => (
-                                <div key={i} className="w-8 h-8 rounded-full bg-gray-300 border-2 border-cream" />
+                            {[
+                                'https://url-shortener.me/1FSB',
+                                'https://url-shortener.me/1FSF',
+                                'https://url-shortener.me/1FSJ',
+                                'https://t3.ftcdn.net/jpg/05/94/11/78/360_F_594117866_itbec6pK8xSdgRHFuFGGZigXA4aeVpLJ.jpg',
+                            ].map((src, i) => (
+                                <div key={i} className="relative w-8 h-8 rounded-full border-2 border-cream overflow-hidden">
+                                    <Image
+                                        src={src}
+                                        alt={`User ${i + 1}`}
+                                        fill
+                                        sizes="32px"
+                                        className="object-cover"
+                                    />
+                                </div>
                             ))}
                         </div>
                         <p>Trusted by 50,000+ collectors</p>
