@@ -9,6 +9,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "url-shortener.me",
+      },
+      {
+        protocol: "https",
+        hostname: "t3.ftcdn.net",
+      },
     ],
   },
 };
