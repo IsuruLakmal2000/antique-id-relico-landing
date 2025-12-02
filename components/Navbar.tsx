@@ -10,16 +10,28 @@ import { motion, AnimatePresence } from "framer-motion";
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
+    const handleDownload = () => {
+        const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera;
+
+        if (/android/i.test(userAgent)) {
+            window.open("https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share", "_blank");
+        } else if (/iPad|iPhone|iPod/.test(userAgent) && !(window as any).MSStream) {
+            window.open("https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659", "_blank");
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/80 backdrop-blur-md border-b border-gold/20">
             <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-2">
-                    <div className="relative w-8 h-8 rounded-full overflow-hidden border border-gold/20">
+                    <div className="relative w-8 h-8">
                         <Image
                             src="/Assets/appicon1.jpg"
                             alt="Relico Logo"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                         />
                     </div>
                     <span className="text-xl font-serif font-bold text-brown-dark tracking-wide">Relico</span>
@@ -30,7 +42,7 @@ export function Navbar() {
                     <Link href="#features" className="text-sm font-medium text-brown-dark/80 hover:text-gold transition-colors">Features</Link>
                     <Link href="#how-it-works" className="text-sm font-medium text-brown-dark/80 hover:text-gold transition-colors">How it Works</Link>
                     <Link href="/blog" className="text-sm font-medium text-brown-dark/80 hover:text-gold transition-colors">Blog</Link>
-                    <Button variant="primary" size="sm">Download App</Button>
+                    <Button variant="primary" size="sm" onClick={handleDownload}>Download App</Button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -52,7 +64,7 @@ export function Navbar() {
                             <Link href="#features" onClick={() => setIsOpen(false)} className="text-sm font-medium text-brown-dark">Features</Link>
                             <Link href="#how-it-works" onClick={() => setIsOpen(false)} className="text-sm font-medium text-brown-dark">How it Works</Link>
                             <Link href="/blog" onClick={() => setIsOpen(false)} className="text-sm font-medium text-brown-dark">Blog</Link>
-                            <Button variant="primary" className="w-full">Download App</Button>
+                            <Button variant="primary" className="w-full" onClick={handleDownload}>Download App</Button>
                         </div>
                     </motion.div>
                 )}

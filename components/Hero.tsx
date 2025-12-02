@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { ArrowRight, Star } from "lucide-react";
 import Image from "next/image";
 
+import { StoreLinks } from "@/components/StoreLinks";
+
 export function Hero() {
     return (
         <Section className="pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
@@ -25,13 +27,11 @@ export function Hero() {
                     <p className="text-lg text-brown-dark/70 mb-8 max-w-lg leading-relaxed">
                         Instantly identify antiques, vintage items, and collectibles with a single photo. Discover their origin, age, and estimated value.
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4">
-                        <Button size="lg" className="gap-2">
+                    <div className="flex flex-col gap-6">
+                        <Button size="lg" className="w-fit gap-2">
                             Start Identifying <ArrowRight className="w-4 h-4" />
                         </Button>
-                        <Button variant="outline" size="lg">
-                            View Gallery
-                        </Button>
+                        <StoreLinks />
                     </div>
                     <div className="mt-8 flex items-center gap-4 text-sm text-brown-dark/60">
                         <div className="flex -space-x-2">

@@ -3,6 +3,7 @@
 import { Section } from "@/components/ui/Section";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { StoreLinks } from "@/components/StoreLinks";
 
 export function AppShowcase() {
     return (
@@ -34,6 +35,10 @@ export function AppShowcase() {
                         />
                     </motion.div>
                 ))}
+            </div>
+
+            <div className="mt-16 flex justify-center">
+                <StoreLinks />
             </div>
         </Section>
     );
