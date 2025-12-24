@@ -1,0 +1,23 @@
+{
+  "name": "Relico - AI Antique Identifier",
+  "short_name": "Relico",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#D4A574",
+  "background_color": "#FBF6EF",
+  "display": "standalone",
+  "description": "Identify antiques instantly with AI. Discover the history, age, and value of your vintage items and collectibles.",
+  "start_url": "/"
+}
