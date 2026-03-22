@@ -47,7 +47,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://antiqueidentifier.site',
     title: 'Relico - AI Antique Identification App',
     description: 'Identify antiques instantly with AI. Discover the history, age, and value of your vintage items and collectibles.',
     siteName: 'Relico',
@@ -80,9 +79,6 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/manifest.json',
-  alternates: {
-    canonical: 'https://antiqueidentifier.site',
-  },
   robots: {
     index: true,
     follow: true,

@@ -6,6 +6,16 @@ import { AppShowcase } from "@/components/AppShowcase";
 import { BlogSection } from "@/components/BlogSection";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "https://antiqueidentifier.site/",
+  },
+};
 
 export default function Home() {
   return (

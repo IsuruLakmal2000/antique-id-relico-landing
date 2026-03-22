@@ -12,6 +12,7 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const baseUrl = "https://antiqueidentifier.site";
     const { slug } = await params;
     const post = blogPosts.find((p) => p.slug === slug);
 
@@ -24,6 +25,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${post.title} | Relico Blog`,
         description: post.excerpt,
+        alternates: {
+            canonical: `/blog/${post.slug}`,
+        },
+        openGraph: {
+            type: "article",
+            url: `${baseUrl}/blog/${post.slug}`,
+            title: `${post.title} | Relico Blog`,
+            description: post.excerpt,
+            images: [
+                {
+                    url: post.imageUrl,
+                    alt: post.title,
+                },
+            ],
+        },
     };
 }
 
