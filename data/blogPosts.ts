@@ -1,3 +1,5 @@
+import { pseoBlogPosts } from "@/data/pseoBlogPosts";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -11,7 +13,7 @@ export interface BlogPost {
   imageUrl: string;
 }
 
-export const blogPosts: BlogPost[] = [
+const baseBlogPosts: BlogPost[] = [
   {
     id: "1",
     title: "How to Identify Antique Furniture: A Comprehensive Guide",
@@ -955,3 +957,5 @@ export const blogPosts: BlogPost[] = [
     `
   }
 ];
+
+export const blogPosts: BlogPost[] = [...pseoBlogPosts, ...baseBlogPosts];
