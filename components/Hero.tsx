@@ -10,7 +10,7 @@ import { StoreLinks } from "@/components/StoreLinks";
 
 export function Hero() {
     return (
-        <Section className="pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+        <Section id="hero" className="pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}

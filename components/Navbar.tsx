@@ -11,14 +11,21 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleDownload = () => {
+        const appStoreUrl = "https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659";
+        const playStoreUrl = "https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share";
         const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera;
 
         if (/android/i.test(userAgent)) {
-            window.open("https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share", "_blank");
+            window.location.href = playStoreUrl;
         } else if (/iPad|iPhone|iPod/.test(userAgent) && !(window as any).MSStream) {
-            window.open("https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659", "_blank");
+            window.location.href = appStoreUrl;
         } else {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            if (window.location.pathname === "/") {
+                const heroSection = document.getElementById("hero");
+                heroSection?.scrollIntoView({ behavior: "smooth", block: "start" });
+            } else {
+                window.location.href = "/#hero";
+            }
         }
     };
 
