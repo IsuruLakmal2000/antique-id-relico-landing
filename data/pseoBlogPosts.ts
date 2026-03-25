@@ -270,9 +270,9 @@ const seeds: PseoSeed[] = [
 
 const imageByCategory: Record<PseoSeed["category"], string> = {
   Identification:
-    "https://images.unsplash.com/photo-1504198266285-165a04dfe3d1?q=80&w=2069&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1551810368-45c2c58f6e74?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   Valuation:
-    "https://images.unsplash.com/photo-1577083552431-6e5fd01988f1?q=80&w=2064&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1516547375098-9efa2ae4f0c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   Guides:
     "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=2070&auto=format&fit=crop",
 };

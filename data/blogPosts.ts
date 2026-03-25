@@ -955,6 +955,228 @@ const baseBlogPosts: BlogPost[] = [
 
       <p>Remember: The antique market is constantly changing. What's hot today might cool off tomorrow. Stay informed, keep learning, and enjoy the journey of discovery. Happy treasure hunting!</p>
     `
+  },
+  {
+    id: "9",
+    title: "How to Tell If Furniture Is Antique...",
+    slug: "how-to-tell-if-furniture-is-antique",
+    excerpt: "Use this practical, expert-level checklist to identify true antique furniture, date construction details, spot reproductions, and estimate value with confidence.",
+    author: "Clara Wentworth",
+    date: "March 25, 2026",
+    readTime: "13 min read",
+    category: "Identification",
+    imageUrl: "https://images.unsplash.com/photo-1606241018160-4985a8ab5dec?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
+      <h2>How to Tell If Furniture Is Antique: Start with Evidence, Not Hope</h2>
+      <p>Finding an old dresser at an estate sale or inheriting a sideboard from family can be exciting, but age claims are often exaggerated. Sellers may call almost anything "antique" if it looks old. In reality, antique identification is not about one clue. It is a process of collecting evidence from construction methods, materials, wear patterns, hardware, and provenance. The more clues align, the stronger your conclusion.</p>
+
+      <p>In strict market terms, furniture is usually considered <strong>antique</strong> when it is at least 100 years old. That means a piece made in 1926 is just entering antique territory in 2026. Pieces younger than that may still be valuable, but they are normally classified as vintage. If you learn to separate age, quality, and condition, you will make far better buying and selling decisions.</p>
+
+      <h2>1. Identify the Style Era Before You Inspect Details</h2>
+      <p>Your first step is visual dating. Style gives you a probable period range before you touch a screwdriver or magnifier. A Queen Anne chair, a Victorian carved cabinet, and an Arts and Crafts oak table each reflect different design movements and production habits.</p>
+
+      <p>Look at silhouette, leg shape, ornament level, and proportions. Cabriole legs with pad or ball-and-claw feet may indicate 18th-century influence. Heavily carved dark woods can suggest Victorian tastes. Straight lines and visible joinery often point to Arts and Crafts. However, remember this: style can be copied. Reproduction makers have copied popular periods for over a century, so style alone never confirms age.</p>
+
+      <h2>2. Inspect Joinery: The Most Reliable Dating Clue</h2>
+      <p>Joinery often reveals whether furniture was hand-built or factory-produced. Pull out drawers, look behind panels, and inspect underside framing. Machine precision usually signals later manufacturing, while tool variation can suggest earlier handwork.</p>
+
+      <h3>Dovetail Clues</h3>
+      <ul>
+        <li><strong>Hand-cut dovetails:</strong> Usually uneven in spacing and size, often wider and fewer. These are strong signs of pre-industrial craftsmanship.</li>
+        <li><strong>Machine-cut dovetails:</strong> Regular and uniform, often narrow and repetitive. Common in later 19th-century and 20th-century production.</li>
+      </ul>
+
+      <p>Do not treat hand-cut dovetails as absolute proof. Many high-end workshops still used hand methods after machines appeared, and some modern boutique makers intentionally mimic old joinery. Your conclusion should always combine multiple checks.</p>
+
+      <h2>3. Read Saw Marks and Tool Marks Like a Timeline</h2>
+      <p>Unfinished surfaces are highly informative. Check drawer bottoms, backboards, interior frames, and undersides where refinishing is less likely.</p>
+
+      <ul>
+        <li><strong>Straight, irregular saw marks:</strong> Often from pit saws or early hand saws.</li>
+        <li><strong>Arced circular marks:</strong> Common after circular saw adoption in the 19th century.</li>
+        <li><strong>Uniform planing and sanding:</strong> Usually modern machine finishing.</li>
+      </ul>
+
+      <p>Chisel marks, hand-planed waviness, and slight asymmetry are often positive age indicators. Perfectly identical machining across all components is more consistent with newer production. Again, this is probabilistic evidence, not a single final verdict.</p>
+
+      <h2>4. Date the Hardware Correctly</h2>
+      <p>Hardware can help or mislead. Pulls, escutcheons, hinges, and locks are frequently replaced during restoration. Still, when hardware appears original and undisturbed, it can support period dating.</p>
+
+      <h3>Screws and Nails</h3>
+      <ul>
+        <li><strong>Early handmade screws:</strong> Irregular slots, imperfect threads, often blunt ends.</li>
+        <li><strong>Machine screws:</strong> Cleaner symmetry and consistent threading.</li>
+        <li><strong>Cut nails:</strong> Rectangular profile typical of 19th-century work.</li>
+        <li><strong>Modern wire nails and Phillips screws:</strong> Strong evidence of later work or repairs.</li>
+      </ul>
+
+      <p>One modern screw does not automatically disqualify a piece. It may simply indicate repair. Look for patterns: are all fasteners modern, or only one hinge replacement? Context matters.</p>
+
+      <h2>5. Evaluate Wood Species and Secondary Woods</h2>
+      <p>Primary wood is what you see on show surfaces. Secondary wood appears inside carcasses, drawer sides, or backs. In many antiques, makers used premium visible woods and cheaper hidden woods. The combination can help narrow period and region.</p>
+
+      <p>Common period associations include mahogany in 18th and 19th centuries, walnut in earlier and Victorian revivals, and oak in both early furniture and Arts and Crafts pieces. Pine and poplar are frequent secondary woods in older case furniture. Plywood, particle board, and modern composites usually indicate later manufacture, although they may appear in restored components.</p>
+
+      <h2>6. Distinguish Patina from Artificial Distressing</h2>
+      <p>Real age leaves logical wear where humans interact with furniture. Fake age often appears random or theatrical. You should expect more wear on drawer knobs, chair arms, front stretchers, desk edges, and tabletop zones where objects are placed repeatedly.</p>
+
+      <p>Natural patina tends to feel layered and subtle: softened corners, oxidized finishes, and gradual color transitions. Artificial distressing often looks forced, with repetitive scratches in unlikely places and uniform dark wax applied to simulate age. If damage does not match expected use, be skeptical.</p>
+
+      <h2>7. Check the Finish and Surface History</h2>
+      <p>Finish chemistry changed over time. Shellac was dominant in many earlier periods; lacquer and synthetic varnishes became common later. A thick glossy polyurethane coat can hide old surfaces and reduce collector value, even when the underlying furniture is genuinely old.</p>
+
+      <p>Inspect hard-to-reach edges for finish buildup, drips, or color transitions. If top surfaces are bright and modern but drawer interiors appear much older, the piece may be antique with later refinishing. That distinction is important because originality strongly affects market value.</p>
+
+      <h2>8. Look for Labels, Stamps, Marks, and Provenance</h2>
+      <p>Paper labels, branded stamps, maker plates, and retailer tags can provide excellent clues. Check backboards, drawer interiors, dust panels, and underside rails. Photograph every mark in high resolution and compare it with known maker archives.</p>
+
+      <p>Provenance can increase confidence and value when documentation is credible. Useful evidence includes family inventories, old receipts, appraisal documents, or photographs showing the piece in a dated setting. Provenance should support physical evidence, not replace it.</p>
+
+      <h2>9. Spot Common Reproduction Red Flags</h2>
+      <p>Many reproductions are sold honestly, but some are misrepresented. Watch for these warning signs before you buy:</p>
+      <ul>
+        <li>Perfectly uniform "wear" on edges that should age unevenly.</li>
+        <li>Modern screws and hardware throughout the piece with no signs of replacement.</li>
+        <li>Artificial wormholes drilled in obvious rows or repeated patterns.</li>
+        <li>Mismatched style details from different centuries on one object.</li>
+        <li>Fresh glue squeeze-out, modern staples, or synthetic backing materials.</li>
+        <li>Seller claims that focus only on story and avoid construction details.</li>
+      </ul>
+
+      <h2>10. Build a Practical Scoring Checklist</h2>
+      <p>When you evaluate furniture in person, use a repeatable system. A quick scorecard prevents emotional buying and helps you compare pieces objectively.</p>
+
+      <div class="bg-brown-dark/5 border border-brown-dark/10 rounded-xl p-6 my-8">
+        <h3 class="text-brown-dark font-serif font-bold mb-4">Antique Probability Scorecard</h3>
+        <ul class="space-y-2 text-brown-dark/80 text-sm">
+          <li><strong>Joinery:</strong> Hand evidence vs machine uniformity</li>
+          <li><strong>Tool marks:</strong> Historic saw/plane patterns present</li>
+          <li><strong>Hardware:</strong> Period-correct and likely original</li>
+          <li><strong>Wood/secondary wood:</strong> Consistent with claimed era</li>
+          <li><strong>Patina:</strong> Logical, use-based wear</li>
+          <li><strong>Finish:</strong> Original or sensitively restored</li>
+          <li><strong>Marks/provenance:</strong> Credible supporting documents</li>
+          <li><strong>Red flags:</strong> Minimal contradiction</li>
+        </ul>
+        <p class="text-brown-dark/70 text-sm mt-4">If most categories align and contradictions are minor, confidence rises. If several categories conflict, treat the piece as uncertain until further research.</p>
+      </div>
+
+      <h2>11. Use Technology as Your Second Opinion</h2>
+      <p>Even experienced collectors use digital tools because no one can memorize every maker, mark, and period nuance. The smartest approach combines traditional inspection with fast verification tools while you are still at the sale.</p>
+
+      <div class="bg-gradient-to-br from-gold/10 via-brown-dark/5 to-gold/5 border-2 border-gold/20 p-8 md:p-12 px-6 md:px-16 my-12 rounded-2xl shadow-lg">
+        <div class="text-center mb-8">
+          <h3 class="text-3xl md:text-4xl font-serif font-bold text-brown-dark mb-3">
+            Verify Furniture Instantly with Relico
+          </h3>
+          <div class="w-20 h-1 bg-gold mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
+          <div>
+            <p class="text-brown-dark/90 text-lg mb-6 leading-relaxed">
+              When a seller says "early 1800s," you need fast evidence. <strong class="text-gold">Relico</strong> helps you scan construction clues, compare maker details, and get informed value ranges in seconds.
+            </p>
+            <ul class="space-y-3 mb-6">
+              <li class="flex items-start">
+                <span class="text-gold mr-3 text-xl">✓</span>
+                <span class="text-brown-dark/80">Photograph joinery, hardware, and marks for instant analysis</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-gold mr-3 text-xl">✓</span>
+                <span class="text-brown-dark/80">Cross-check style and period details before you commit</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-gold mr-3 text-xl">✓</span>
+                <span class="text-brown-dark/80">Estimate value ranges based on real market behavior</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-gold mr-3 text-xl">✓</span>
+                <span class="text-brown-dark/80">Build confidence when negotiating or deciding to walk away</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative">
+            <div class="relative mx-auto max-w-xs">
+              <img
+                src="/Assets/ss1.jpg"
+                alt="Relico app for antique furniture checks"
+                class="rounded-2xl shadow-2xl border-4 border-white/50 transform hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute -bottom-4 -right-4 bg-gold text-white px-4 py-2 rounded-full font-bold shadow-lg text-sm">
+                Fast Verification
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 mb-6">
+          <p class="text-brown-dark/80 text-center mb-4 font-medium">
+            Compare clues in real time and avoid expensive mistakes.
+          </p>
+          <div class="flex flex-wrap gap-4 justify-center items-center">
+            <a
+              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
+            >
+              <svg class="w-6 h-6 mr-3" viewBox="0 0 384 512" fill="currentColor">
+                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19.6 0 38.5-16.8 53.3-16.8s33.6 16.8 54.7 16.8c32.6 0 65.5-75.8 88.3-124.2-34.9-12.8-64.5-53.5-65.8-88.5zm-48.7-155.4c13.6-16.6 24.5-37.5 21.8-58.7-18.8 1.2-41.4 12.5-55 28.7-11.5 13.5-22.3 36.2-19.4 58 21.9 1.6 41.5-10.8 52.6-28z" />
+              </svg>
+              <div class="flex flex-col items-start leading-none">
+                <span class="text-[10px] uppercase font-medium opacity-80">Download on the</span>
+                <span class="text-lg font-bold">App Store</span>
+              </div>
+            </a>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
+            >
+              <svg class="w-6 h-6 mr-3" viewBox="0 0 512 512" fill="currentColor">
+                <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
+              </svg>
+              <div class="flex flex-col items-start leading-none">
+                <span class="text-[10px] uppercase font-medium opacity-80">Get it on</span>
+                <span class="text-lg font-bold">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <p class="text-brown-dark/60 text-sm italic">
+            Use every clue you can, then verify before you buy.
+          </p>
+        </div>
+      </div>
+
+      <h2>12. Understand Condition vs. Authenticity vs. Value</h2>
+      <p>A piece can be genuinely antique and still have low value. Value depends on demand, maker reputation, condition, and rarity. A heavily restored common piece may sell for less than a pristine example from a less famous period. Buyers pay for authenticity, but they also pay for desirability and condition quality.</p>
+
+      <p>When pricing, compare sold listings rather than asking prices. Match by dimensions, materials, period, condition level, and region when possible. If your piece has major restoration, disclose it clearly. Transparency increases buyer trust and reduces returns.</p>
+
+      <h2>When to Seek a Professional Appraisal</h2>
+      <p>If you suspect high value, uncertain attribution, or legal/insurance needs, get a certified appraiser. Written appraisals are essential for estate settlements, tax documentation, and insurance scheduling. Digital tools are excellent for fast screening, but formal valuation is still the standard for high-stakes decisions.</p>
+
+      <h2>Final Checklist Before You Buy or Sell</h2>
+      <ul>
+        <li>Photograph all sides, joinery, hardware, and marks.</li>
+        <li>Confirm whether hardware appears original or replaced.</li>
+        <li>Check for restoration, refinishing, and structural repairs.</li>
+        <li>Compare at least three to five sold examples.</li>
+        <li>Document provenance and keep copies of every record.</li>
+        <li>Use a second-opinion tool before payment.</li>
+      </ul>
+
+      <p>Telling if furniture is truly antique is less about intuition and more about disciplined observation. Once you train your eye to read joinery, wood, hardware, finish, and wear as a single story, confidence comes quickly. Over time, you will avoid costly reproductions, recognize quality sooner, and build a collection based on evidence rather than guesswork.</p>
+
+      <p>Approach every piece like a historian and a buyer at the same time. Respect the craft, verify the claims, and keep your standards consistent. That combination is what separates casual browsing from smart collecting.</p>
+    `
   }
 ];
 
