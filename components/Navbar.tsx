@@ -42,7 +42,7 @@ export function Navbar() {
                             className="object-contain"
                         />
                     </div>
-                    <span className="text-xl font-serif font-bold text-brown-dark tracking-wide">Relico</span>
+                    <span className="text-xl font-serif font-bold text-brown-dark tracking-wide">Relico: Antique Identifier</span>
                 </Link>
 
                 {/* Desktop Nav */}

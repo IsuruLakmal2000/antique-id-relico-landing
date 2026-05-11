@@ -31,7 +31,9 @@ export function Hero() {
                         <Button size="lg" className="w-fit gap-2">
                             Start Identifying <ArrowRight className="w-4 h-4" />
                         </Button>
-                        <StoreLinks />
+                        <div id="download">
+                            <StoreLinks />
+                        </div>
                     </div>
                     <div className="mt-8 flex items-center gap-4 text-sm text-brown-dark/60">
                         <div className="flex -space-x-2">
