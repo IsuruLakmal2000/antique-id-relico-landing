@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://antiqueidentifier.site'),
   title: {
-    default: "Relico - AI Antique Identification App | Identify & Value Antiques Instantly",
+    default: "Antique Identifier — Identify and Appraise Antiques with AI",
     template: "%s | Relico - Antique Identifier"
   },
   description: "Identify antiques instantly with AI-powered antique identification. Discover the history, origin, age, and estimated value of your vintage items, collectibles, and treasures. Free antique appraisal tool.",
