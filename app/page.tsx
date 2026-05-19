@@ -9,6 +9,7 @@ import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  description: "Identify antiques instantly with our AI-powered app. Snap a photo to discover the history, origin, and value of your furniture, jewelry, and collectibles. Get your free antique appraisal today.",
   alternates: {
     canonical: "/",
   },

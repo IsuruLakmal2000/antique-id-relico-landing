@@ -10,6 +10,8 @@ import Link from "next/link";
 import { ArrowRight, Calendar, User } from "lucide-react";
 
 export function BlogIndexClient() {
+    const authorHref = "/authors/isuru";
+
     return (
         <main className="min-h-screen bg-cream selection:bg-gold/30">
             <Navbar />
@@ -61,7 +63,9 @@ export function BlogIndexClient() {
                                     </div>
                                     <div className="flex items-center gap-1">
                                         <User className="w-3 h-3" />
-                                        {post.author}
+                                        <Link href={authorHref} className="hover:text-gold transition-colors">
+                                            {post.author}
+                                        </Link>
                                     </div>
                                 </div>
                                 <Link href={`/blog/${post.slug}`}>

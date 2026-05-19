@@ -11,6 +11,13 @@ interface Props {
     params: Promise<{ slug: string }>;
 }
 
+const authorProfile = {
+    name: "Isuru",
+    slug: "isuru",
+    url: "https://antiqueidentifier.site/authors/isuru",
+    sameAs: ["https://x.com/I5uru1", "https://i5uru.me/"],
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const baseUrl = "https://antiqueidentifier.site";
     const { slug } = await params;
@@ -25,6 +32,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: `${post.title} | Relico Blog`,
         description: post.excerpt,
+        authors: [
+            {
+                name: authorProfile.name,
+                url: authorProfile.url,
+            },
+        ],
         alternates: {
             canonical: `/blog/${post.slug}`,
         },
@@ -88,7 +101,9 @@ export default async function BlogPost({ params }: Props) {
         dateModified: datePublished,
         author: {
             "@type": "Person",
-            name: post.author,
+            name: authorProfile.name,
+            url: authorProfile.url,
+            sameAs: authorProfile.sameAs,
         },
         publisher: {
             "@type": "Organization",
@@ -148,8 +163,13 @@ export default async function BlogPost({ params }: Props) {
                             {post.author.charAt(0)}
                         </div>
                         <div>
-                            <div className="font-medium text-brown-dark">{post.author}</div>
-                            <div className="text-xs text-brown-dark/50">Antique Specialist</div>
+                            <Link
+                                href={`/authors/${authorProfile.slug}`}
+                                className="font-medium text-brown-dark hover:text-gold transition-colors"
+                            >
+                                {post.author}
+                            </Link>
+                            <div className="text-xs text-brown-dark/50">Author</div>
                         </div>
                     </div>
                 </div>

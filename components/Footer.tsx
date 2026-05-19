@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { Search, Twitter, Instagram, Facebook } from "lucide-react";
+import { Search } from "lucide-react";
 
 export function Footer() {
     return (
         <footer className="bg-brown-dark text-cream pt-16 pb-8 border-t border-gold/20">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="grid md:grid-cols-4 gap-12 mb-12">
+                <div className="grid md:grid-cols-3 gap-12 mb-12">
                     <div className="col-span-1 md:col-span-1">
                         <Link href="/" className="flex items-center gap-2 mb-6">
                             <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
@@ -35,20 +35,6 @@ export function Footer() {
                         </ul>
                     </div>
 
-                    <div>
-                        <h4 className="font-serif font-bold text-gold mb-6">Connect</h4>
-                        <div className="flex gap-4 mb-6">
-                            <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-brown-dark transition-all">
-                                <Twitter className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-brown-dark transition-all">
-                                <Instagram className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold hover:text-brown-dark transition-all">
-                                <Facebook className="w-5 h-5" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="pt-8 border-t border-cream/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-cream/40">

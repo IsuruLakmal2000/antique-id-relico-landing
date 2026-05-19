@@ -23,7 +23,20 @@ interface GeneratedBlogPost {
   imageUrl: string;
 }
 
-const publishedDate = "March 22, 2026";
+const publishedStartDate = new Date(Date.UTC(2026, 1, 18));
+const daysBetweenPosts = 3;
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "UTC",
+});
+
+const getPublishedDate = (index: number) => {
+  const date = new Date(publishedStartDate);
+  date.setUTCDate(publishedStartDate.getUTCDate() + index * daysBetweenPosts);
+  return dateFormatter.format(date);
+};
 
 const seeds: PseoSeed[] = [
   {
@@ -314,8 +327,8 @@ export const pseoBlogPosts: GeneratedBlogPost[] = seeds.map((seed, index) => ({
   title: seed.title,
   slug: seed.slug,
   excerpt: seed.excerpt,
-  author: "Relico Editorial Team",
-  date: publishedDate,
+  author: "Isuru",
+  date: getPublishedDate(index),
   readTime: "6 min read",
   category: seed.category,
   imageUrl: imageByCategory[seed.category],
