@@ -12,3 +12,624 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
 }
+
+.photo-guide {
+  --ink: #1a1612;
+  --ink-soft: #3d3530;
+  --ink-muted: #7a6f65;
+  --ink-faint: #b5a898;
+  --cream: #faf7f2;
+  --cream-warm: #f2ece0;
+  --gold: #b8893a;
+  --gold-light: #d4a85a;
+  --gold-pale: #f5ead5;
+  --rust: #9e3f2a;
+  --green-antique: #3d6b4a;
+  --border: #e2d8c8;
+  --border-dark: #c8b898;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-outfit), "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.photo-guide * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photo-guide .article-header {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 72px 24px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-guide .article-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(184, 137, 58, 0.18) 0%, transparent 70%),
+    repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255, 255, 255, 0.015) 40px),
+    repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255, 255, 255, 0.015) 40px);
+  pointer-events: none;
+}
+
+.photo-guide .article-header-inner {
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.photo-guide .article-category {
+  display: inline-block;
+  font-family: var(--font-outfit), "Outfit", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  border: 1px solid rgba(212, 168, 90, 0.35);
+  padding: 5px 16px;
+  border-radius: 3px;
+  margin-bottom: 28px;
+}
+
+.photo-guide .article-title {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+
+.photo-guide .article-title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.photo-guide .article-deck {
+  font-size: 17px;
+  font-weight: 300;
+  color: rgba(250, 247, 242, 0.75);
+  max-width: 620px;
+  margin: 0 auto 32px;
+  line-height: 1.65;
+}
+
+.photo-guide .article-meta {
+  font-size: 12px;
+  color: rgba(250, 247, 242, 0.45);
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-guide .article-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.photo-guide .toc-wrap {
+  max-width: 780px;
+  margin: 48px auto 0;
+  padding: 0 24px;
+}
+
+.photo-guide .toc {
+  background: var(--cream-warm);
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+  padding: 28px 32px;
+}
+
+.photo-guide .toc-title {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.photo-guide .toc ol {
+  list-style: none;
+  counter-reset: toc;
+  columns: 2;
+  column-gap: 32px;
+}
+
+.photo-guide .toc li {
+  counter-increment: toc;
+  padding: 5px 0;
+  break-inside: avoid;
+}
+
+.photo-guide .toc a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 13.5px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  transition: color 0.2s;
+}
+
+.photo-guide .toc a:hover {
+  color: var(--gold);
+}
+
+.photo-guide .toc a::before {
+  content: counter(toc, decimal-leading-zero);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.photo-guide .article-body {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+.photo-guide p {
+  margin-bottom: 22px;
+  font-size: 16.5px;
+  color: var(--ink-soft);
+}
+
+.photo-guide h2 {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 56px 0 18px;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
+  padding-top: 12px;
+  border-top: 2px solid var(--gold);
+  display: inline-block;
+}
+
+.photo-guide h3 {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 36px 0 12px;
+  line-height: 1.3;
+}
+
+.photo-guide h4 {
+  font-family: var(--font-outfit), "Outfit", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 28px 0 8px;
+}
+
+.photo-guide strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.photo-guide em {
+  font-style: italic;
+}
+
+.photo-guide a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.photo-guide ul,
+.photo-guide ol {
+  padding-left: 0;
+  margin-bottom: 22px;
+  list-style: none;
+}
+
+.photo-guide ul li,
+.photo-guide ol li {
+  font-size: 16px;
+  color: var(--ink-soft);
+  padding: 7px 0 7px 28px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.photo-guide ul li:last-child,
+.photo-guide ol li:last-child {
+  border-bottom: none;
+}
+
+.photo-guide ul li::before {
+  content: "◆";
+  font-size: 6px;
+  color: var(--gold);
+  position: absolute;
+  left: 8px;
+  top: 14px;
+}
+
+.photo-guide ol {
+  counter-reset: ol-count;
+}
+
+.photo-guide ol li {
+  counter-increment: ol-count;
+}
+
+.photo-guide ol li::before {
+  content: counter(ol-count);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold);
+  background: var(--gold-pale);
+  width: 19px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.photo-guide blockquote {
+  margin: 40px 0;
+  padding: 28px 36px;
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-guide blockquote::before {
+  content: "\"";
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 120px;
+  color: rgba(184, 137, 58, 0.25);
+  position: absolute;
+  top: -20px;
+  left: 16px;
+  line-height: 1;
+}
+
+.photo-guide blockquote p {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 19px;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.6;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-guide blockquote cite {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-top: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.photo-guide .tip-box {
+  margin: 36px 0;
+  padding: 22px 26px;
+  background: var(--gold-pale);
+  border-left: 4px solid var(--gold);
+  border-radius: 0 6px 6px 0;
+}
+
+.photo-guide .tip-box .tip-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.photo-guide .tip-box p {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.photo-guide .warn-box {
+  margin: 36px 0;
+  padding: 22px 26px;
+  background: #fdf3f0;
+  border-left: 4px solid var(--rust);
+  border-radius: 0 6px 6px 0;
+}
+
+.photo-guide .warn-box .warn-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 8px;
+}
+
+.photo-guide .warn-box p {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+}
+
+.photo-guide .step-grid {
+  display: grid;
+  gap: 0;
+  margin: 32px 0;
+  border: 1px solid var(--border-dark);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.photo-guide .step-card {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: start;
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+  transition: background 0.2s;
+}
+
+.photo-guide .step-card:last-child {
+  border-bottom: none;
+}
+
+.photo-guide .step-card:hover {
+  background: var(--gold-pale);
+}
+
+.photo-guide .step-num {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--gold);
+  text-align: center;
+  padding: 20px 0;
+  border-right: 1px solid var(--border);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-guide .step-content {
+  padding: 18px 22px;
+}
+
+.photo-guide .step-content strong {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: var(--ink);
+}
+
+.photo-guide .step-content span {
+  font-size: 13.5px;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+
+.photo-guide .comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 28px 0;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-dark);
+}
+
+.photo-guide .comp-table th {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 14px 16px;
+  text-align: left;
+  font-family: var(--font-outfit), "Outfit", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.photo-guide .comp-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink-soft);
+  vertical-align: top;
+}
+
+.photo-guide .comp-table tr:last-child td {
+  border-bottom: none;
+}
+
+.photo-guide .comp-table tr:nth-child(even) td {
+  background: var(--cream-warm);
+}
+
+.photo-guide .comp-table td:first-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.photo-guide .app-cta {
+  margin: 52px 0;
+  background: var(--ink);
+  border-radius: 10px;
+  padding: 40px 44px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-guide .app-cta::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(184, 137, 58, 0.2) 0%, transparent 65%);
+  border-radius: 50%;
+}
+
+.photo-guide .app-cta-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 10px;
+}
+
+.photo-guide .app-cta h3 {
+  font-family: var(--font-lora), "Lora", serif;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0 10px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.photo-guide .app-cta p {
+  font-size: 14px;
+  color: rgba(250, 247, 242, 0.65);
+  margin: 0;
+  max-width: 420px;
+}
+
+.photo-guide .app-cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.photo-guide .btn-store {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  min-width: 160px;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.photo-guide .btn-store:hover {
+  background: var(--gold-pale);
+  transform: translateY(-1px);
+}
+
+.photo-guide .btn-store svg {
+  flex-shrink: 0;
+}
+
+.photo-guide .faq-section {
+  margin: 40px 0;
+}
+
+.photo-guide .faq-item {
+  border: 1px solid var(--border-dark);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.photo-guide .faq-q {
+  padding: 18px 22px;
+  font-weight: 600;
+  font-size: 15.5px;
+  color: var(--ink);
+  background: var(--cream-warm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.photo-guide .faq-q::after {
+  content: "+";
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.photo-guide .faq-a {
+  padding: 18px 22px;
+  font-size: 15px;
+  color: var(--ink-soft);
+  background: #fff;
+  border-top: 1px solid var(--border);
+  line-height: 1.7;
+}
+
+.photo-guide .ornamental-div {
+  text-align: center;
+  margin: 48px 0;
+  color: var(--gold);
+  font-size: 18px;
+  letter-spacing: 12px;
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .photo-guide .toc ol {
+    columns: 1;
+  }
+
+  .photo-guide .app-cta {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-guide .app-cta-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

@@ -1515,6 +1515,435 @@ const baseBlogPosts: BlogPost[] = [
 
       <p>Whether you walk through a pavilion in Venice or open a box in your attic, the invitation is the same: slow down, lean in, and listen. The quiet details often hold the richest stories.</p>
     `
+  },
+  {
+    id: "11",
+    title: "How to Identify Antiques by Photo: The Complete 2026 Guide",
+    slug: "how-to-identify-antiques-by-photo",
+    excerpt: "Learn how to identify antiques by photo using 7 expert techniques — from reading pottery marks to spotting dovetail joints — plus a faster AI method anyone can use.",
+    author: "Relico Editorial Team",
+    date: "May 21, 2026",
+    readTime: "12 min read",
+    category: "Identification",
+    imageUrl: "https://images.unsplash.com/photo-1504198266285-165a04dfe3d1?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    content: `
+<header class="article-header">
+  <div class="article-header-inner">
+    <div class="article-category">Antique Identification Guide</div>
+    <h1 class="article-title">How to Identify Antiques <em>by Photo</em>:<br>The Complete 2026 Guide</h1>
+    <p class="article-deck">Seven expert techniques for reading construction clues, maker's marks, and materials — plus the modern AI shortcut that turns a smartphone photo into instant answers.</p>
+    <div class="article-meta">
+      <span>📅 May 21, 2026</span>
+      <span>✍️ Relico Editorial Team</span>
+      <span>⏱ 12 min read</span>
+      <span>🏷 2,400 words</span>
+    </div>
+  </div>
+</header>
+
+<div class="toc-wrap">
+  <nav class="toc">
+    <div class="toc-title">Table of Contents</div>
+    <ol>
+      <li><a href="#what-makes-antique">What Makes Something an Antique?</a></li>
+      <li><a href="#photo-checklist">The 7-Step Photo Checklist</a></li>
+      <li><a href="#joinery">Read the Joinery</a></li>
+      <li><a href="#saw-marks">Saw Marks & Wood Clues</a></li>
+      <li><a href="#hardware">Hardware Dating</a></li>
+      <li><a href="#pottery-marks">Pottery & Porcelain Marks</a></li>
+      <li><a href="#silver-hallmarks">Silver Hallmarks</a></li>
+      <li><a href="#style-periods">Style & Period Recognition</a></li>
+      <li><a href="#ai-method">The AI Photo Method</a></li>
+      <li><a href="#valuation">Getting a Valuation</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<article class="article-body">
+
+  <p>You've just found something interesting — a piece of furniture at an estate sale, a ceramic bowl at a flea market, a silver spoon in your grandmother's drawer. It looks old. It feels old. But is it genuinely antique, and if so, what is it actually <em>worth</em>?</p>
+
+  <p>This is the question that sends most people down a rabbit hole of inconclusive Google searches and blurry forum photos. The good news is that identifying antiques from photographs is entirely possible — experts have been doing it for decades, and today's AI tools have made the process accessible to everyone.</p>
+
+  <p>In this guide, you'll learn the seven core techniques that appraisers and experienced collectors use to identify antiques from photographs, and how a modern AI antique identifier can shortcut hours of research into a few seconds.</p>
+
+  <h2 id="what-makes-antique">What Makes Something an Antique?</h2>
+
+  <p>Before diving into identification methods, it helps to understand the definitions. The standard threshold — used by customs agencies, auction houses, and most dealers worldwide — is that an item must be <strong>at least 100 years old</strong> to qualify as a true antique. Anything between 20 and 99 years old is typically classified as <em>vintage</em>.</p>
+
+  <p>This distinction matters enormously for value. A Victorian writing desk from the 1880s is an antique; a mid-century modern sideboard from 1965 is vintage. Both can be valuable — but they attract different buyers and different market prices.</p>
+
+  <div class="tip-box">
+    <div class="tip-label">💡 Quick Definition</div>
+    <p><strong>Antique:</strong> 100+ years old. <strong>Vintage:</strong> 20–99 years old. <strong>Reproduction:</strong> A modern copy made to resemble an older style — and worth dramatically less than the real thing.</p>
+  </div>
+
+  <p>The critical challenge is distinguishing authentic antiques from skilled reproductions. A reproduction Victorian dresser might look identical to the untrained eye, but a few well-photographed details will give it away every time. Here's what to photograph and what to look for.</p>
+
+  <h2 id="photo-checklist">The 7-Step Photo Checklist Before You Start</h2>
+
+  <p>The quality of your identification — whether done manually or by AI — depends almost entirely on the quality of your photographs. Poor lighting and bad angles are the most common reason identifications fail. Before you do anything else, take these seven photos:</p>
+
+  <div class="step-grid">
+    <div class="step-card">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <strong>Full front view in natural light</strong>
+        <span>Step back and capture the whole piece with daylight from the side, not directly behind you. Avoid camera flash — it flattens texture and detail.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <strong>Underside / back panel</strong>
+        <span>The most revealing photo you can take. This is where saw marks, construction methods, stamps, and aging evidence live. For furniture, photograph underneath drawers and tabletops.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <strong>Joinery close-up</strong>
+        <span>Pull out a drawer and photograph where the drawer sides meet the front. The type of joint immediately narrows the period of manufacture by 50+ years.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <strong>Hardware detail</strong>
+        <span>Photograph handles, hinges, locks, and screws individually. Each has a manufacturing era fingerprint visible in shape, material, and fastening method.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">5</div>
+      <div class="step-content">
+        <strong>Any marks, stamps or signatures</strong>
+        <span>Use a flashlight held at an angle (raking light) to illuminate shallow impressed marks. Photograph in macro mode if your phone allows it.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">6</div>
+      <div class="step-content">
+        <strong>Surface texture and patina</strong>
+        <span>Photograph the wood grain, glaze, or metal surface in raking light to capture the natural aging that can't be faked without years of use.</span>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">7</div>
+      <div class="step-content">
+        <strong>Any damage, repairs or alterations</strong>
+        <span>Old repairs — filled cracks, replaced sections, old glue stains — are actually positive authenticity signals. Photograph them; don't hide them.</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="joinery">Technique 1: Read the Joinery</h2>
+
+  <p>For wooden antiques — furniture, boxes, frames, cabinets — the joinery is the single most reliable dating tool available. How two pieces of wood are joined together tells you not just the era, but whether the piece was handmade or machine-manufactured.</p>
+
+  <h3>Dovetail Joints</h3>
+  <p>Dovetail joints — the interlocking wedge-shaped "tails" at the corner of drawers — are the most studied joint in antique identification. Before roughly 1860, all dovetails were cut by hand. Hand-cut dovetails are slightly irregular: the spacing isn't perfectly uniform, the angles vary slightly, and you can often see subtle chisel marks in the wood. This irregularity is a <em>feature</em>, not a flaw. It's the fingerprint of a human craftsperson.</p>
+
+  <p>After 1860, dovetail-cutting machines entered widespread use. Machine-cut dovetails are mathematically perfect — identical spacing, uniform angles, no variation. If you're looking at a drawer joint that could have been produced by a photocopier, it was made after the Industrial Revolution or is a modern reproduction.</p>
+
+  <h3>Mortise and Tenon, Tongue and Groove</h3>
+  <p>Mortise and tenon joints — a rectangular projection fitting into a corresponding hole — were used in quality furniture construction from the medieval period onwards. Look at them closely: pre-industrial mortises were cut with a hand chisel, leaving slightly rough walls. Machine-cut mortises have perfectly smooth, uniform sides. The difference is subtle but visible in a good photograph.</p>
+
+  <div class="tip-box">
+    <div class="tip-label">✅ Pro Tip</div>
+    <p>Photograph the inside of a drawer — not just the corner joints. Run your eye along the bottom of the drawer interior. Pre-industrial drawer bottoms were bevelled at the edges and slid into grooves; machine-made drawer bottoms are flat-cut and nailed or stapled. A staple immediately tells you the piece is 20th century or later.</p>
+  </div>
+
+  <h2 id="saw-marks">Technique 2: Saw Marks and Wood Clues</h2>
+
+  <p>The marks left by the saw that cut the timber are one of the most precise dating tools in existence — and they're clearly visible in a good photograph of the underside or back of any wooden piece.</p>
+
+  <table class="comp-table">
+    <thead>
+      <tr>
+        <th>Saw Type</th>
+        <th>Mark Pattern</th>
+        <th>Era</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pit saw</td>
+        <td>Straight, parallel marks running across the grain</td>
+        <td>Pre-1840</td>
+      </tr>
+      <tr>
+        <td>Circular saw</td>
+        <td>Curved or arced marks in a consistent arc pattern</td>
+        <td>Post-1840</td>
+      </tr>
+      <tr>
+        <td>Band saw</td>
+        <td>Very fine, closely spaced straight lines</td>
+        <td>Post-1870</td>
+      </tr>
+      <tr>
+        <td>Modern blade</td>
+        <td>Perfectly clean cut, no visible marks</td>
+        <td>Post-1940s</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Beyond saw marks, look at the wood itself. Antique furniture was typically made from <strong>solid, wide boards</strong> — a single piece of timber for a tabletop or chest lid. Modern furniture uses plywood, MDF, or veneers over particleboard. Pick up a piece (or knock on it): genuine antiques are noticeably heavier than modern equivalents of the same size.</p>
+
+  <p>Also observe <strong>surface irregularities</strong>. Pre-industrial surfaces were finished with a hand plane, leaving a very subtle ripple — almost imperceptible, but something you can feel by running your hand across an unfinished underside. Machine-sanded surfaces are perfectly flat. That little wave is one of the most satisfying and authentic signs of genuine age.</p>
+
+  <h2 id="hardware">Technique 3: Hardware Dating</h2>
+
+  <p>Drawer pulls, hinges, locks, and especially screws and nails are extraordinarily precise dating tools. Manufacturers changed how they made these components at very specific historical moments, leaving dateable fingerprints on every piece of furniture they were attached to.</p>
+
+  <h4>Nails</h4>
+  <ul>
+    <li><strong>Hand-forged nails (pre-1800):</strong> Completely irregular, tapered with a square shank. No two are identical.</li>
+    <li><strong>Cut nails (1800–1890):</strong> Machine-cut from flat sheet metal. Rectangular shank, tapered on two sides only. Slightly more uniform.</li>
+    <li><strong>Wire nails (post-1890):</strong> Round shank, completely uniform diameter. The nail of the modern era.</li>
+  </ul>
+
+  <h4>Screws</h4>
+  <ul>
+    <li><strong>Hand-filed screws (pre-1850):</strong> The slot is off-centre, the tip is blunt rather than pointed, and the threads are irregular.</li>
+    <li><strong>Machine-cut screws (post-1850):</strong> Uniform threads, centred slot, pointed tip.</li>
+    <li><strong>Phillips head screws:</strong> Invented in 1936. If you see a cross-headed screw, the piece (or at minimum that hardware) is from 1936 at the earliest.</li>
+  </ul>
+
+  <div class="warn-box">
+    <div class="warn-label">⚠️ Watch Out</div>
+    <p>Hardware is frequently replaced. Finding modern screws on an otherwise antique piece doesn't automatically mean it's a fake — it may simply have been repaired. Always look at multiple hardware elements and cross-reference with the joinery and wood evidence.</p>
+  </div>
+
+  <h2 id="pottery-marks">Technique 4: Reading Pottery and Porcelain Marks</h2>
+
+  <p>For ceramics — pottery, porcelain, china, figurines — the most direct identification route is the maker's mark on the base. These marks were applied by virtually every significant manufacturer, and most are well-documented in reference databases.</p>
+
+  <blockquote>
+    <p>A mark alone does not guarantee value — inspect the overall condition, look for reproduction marks, and always cross-reference with multiple sources before drawing conclusions.</p>
+    <cite>— Antique collectors' principle</cite>
+  </blockquote>
+
+  <h3>Where to Look</h3>
+  <p>Turn the piece over and examine the base, the lid's underside (if applicable), and the rim's inner surface. Use a bright flashlight held at an angle — this raking light technique makes impressed or faint marks suddenly visible.</p>
+
+  <h3>What the Marks Mean</h3>
+  <p>Pottery marks fall into several categories, each carrying different information:</p>
+
+  <ul>
+    <li><strong>Factory marks:</strong> The manufacturer's name, initials, or logo. Royal Doulton uses a lion and crown; Wedgwood uses an impressed name; early Spode uses a printed mark with a pattern number.</li>
+    <li><strong>Pattern marks:</strong> A number or name indicating the design, usually found near the factory mark. These help date a piece within a manufacturer's catalogue.</li>
+    <li><strong>Country of origin marks:</strong> The word "England," "Made in England," or similar phrases became legally required on exported goods from 1891 onwards — so any piece marked "England" was almost certainly made after that date.</li>
+    <li><strong>Registration marks:</strong> British ceramics between 1842 and 1883 often carry a diamond-shaped registration mark that encodes the exact date of manufacture. These are among the most precise dating tools in antiques.</li>
+  </ul>
+
+  <h3>Notable Marks to Know</h3>
+  <ul>
+    <li><strong>Sèvres (France):</strong> Interlaced "L"s, often enclosing a letter that corresponds to the year of manufacture.</li>
+    <li><strong>Meissen (Germany):</strong> Crossed blue swords — one of the most imitated marks in history. Genuine Meissen swords have specific proportions; fakes tend to be heavier or clumsier.</li>
+    <li><strong>Staffordshire (England):</strong> An enormous variety of marks from hundreds of factories (Spode, Minton, Wedgwood). After 1891, most include "England" or "Made in England."</li>
+    <li><strong>Japanese marks:</strong> Often use red or blue overglaze characters. The word "Nippon" (used on exports 1891–1921) is a helpful date indicator.</li>
+  </ul>
+
+  <h2 id="silver-hallmarks">Technique 5: Decoding Silver Hallmarks</h2>
+
+  <p>British silver hallmarks are arguably the most precise dating system in all of antiques. Since 1300, British silver has been assayed (tested for purity) and marked by one of the official assay offices — and those marks record not just the purity and maker, but often the <em>exact year</em> of manufacture.</p>
+
+  <p>A full set of British hallmarks typically includes:</p>
+
+  <ul>
+    <li><strong>Maker's mark:</strong> The silversmith's initials, usually in a shield-shaped cartouche.</li>
+    <li><strong>Standard mark:</strong> Confirms the silver purity. The lion passant (a lion walking) has been used since 1544 and indicates sterling silver (92.5% pure).</li>
+    <li><strong>Assay office mark:</strong> Indicates where the piece was tested. London uses a leopard's head; Birmingham uses an anchor; Sheffield uses a rose.</li>
+    <li><strong>Date letter:</strong> A letter in a specific style of shield that cycles through the alphabet annually. Each assay office used a different letter style, allowing precise dating to within one year.</li>
+  </ul>
+
+  <div class="tip-box">
+    <div class="tip-label">📸 Photography Tip</div>
+    <p>Silver hallmarks are tiny and often worn. Photograph them with your phone's maximum zoom, in natural sidelight — never flash. Then enlarge the image. Even worn marks become readable when properly lit and magnified.</p>
+  </div>
+
+  <h2 id="style-periods">Technique 6: Recognising Furniture Style Periods</h2>
+
+  <p>Even without looking at a single joint or mark, the overall visual style of a piece of furniture can narrow its date of manufacture to within a 20–30 year window. Each historical period had characteristic design elements that are recognisable once you know what to look for.</p>
+
+  <table class="comp-table">
+    <thead>
+      <tr>
+        <th>Period</th>
+        <th>Approximate Dates</th>
+        <th>Key Visual Characteristics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>William & Mary</td>
+        <td>1680–1720</td>
+        <td>Curved legs, trumpet turnings, walnut or veneer, tall case pieces</td>
+      </tr>
+      <tr>
+        <td>Queen Anne</td>
+        <td>1700–1755</td>
+        <td>Cabriole legs, pad feet, restrained ornamentation, walnut</td>
+      </tr>
+      <tr>
+        <td>Chippendale</td>
+        <td>1750–1790</td>
+        <td>Carved ball-and-claw feet, Gothic/Chinese fretwork, mahogany</td>
+      </tr>
+      <tr>
+        <td>Hepplewhite / Sheraton</td>
+        <td>1780–1820</td>
+        <td>Straight tapered legs, shield-back chairs, delicate inlays, satinwood</td>
+      </tr>
+      <tr>
+        <td>Empire / Regency</td>
+        <td>1800–1840</td>
+        <td>Heavy classical forms, brass hardware, dark mahogany, military motifs</td>
+      </tr>
+      <tr>
+        <td>Victorian</td>
+        <td>1840–1900</td>
+        <td>Heavy ornamentation, dark woods, carved fruit/flowers, overstuffed upholstery</td>
+      </tr>
+      <tr>
+        <td>Arts & Crafts</td>
+        <td>1880–1920</td>
+        <td>Simple forms, exposed mortise joints, solid oak, natural finishes</td>
+      </tr>
+      <tr>
+        <td>Art Nouveau</td>
+        <td>1890–1910</td>
+        <td>Sinuous organic curves, nature motifs, asymmetry, whiplash lines</td>
+      </tr>
+      <tr>
+        <td>Art Deco</td>
+        <td>1920–1940</td>
+        <td>Geometric forms, bold contrasts, exotic veneers, streamlined shapes</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="ornamental-div">✦ ✦ ✦</div>
+
+  <div class="app-cta">
+    <div>
+      <div class="app-cta-eyebrow">✨ Skip the Guesswork</div>
+      <h3>Identify any antique in seconds — just snap a photo</h3>
+      <p>Relico's AI analyses joinery, style, marks, and materials from your photo and returns the item name, period, origin, and estimated value instantly. No expertise required.</p>
+    </div>
+    <div class="app-cta-buttons">
+      <a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659" class="btn-store">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share" class="btn-store">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.2L15.5 12 3.18 0c-.36-.05-.7.03-.99.2C1.79.64 1.5 1.33 1.5 2.24v19.52c0 .91.29 1.6.87 1.94l.81-1-.81 1z"/><path d="m13.36 10.06-2.5-2.5L5.5 2.56 16.35 8.76l-2.99 1.3z"/><path d="m16.35 15.24-11.9 6.2 5.41-5.41 2.5-2.5 2.99 1.3 1.02.41z"/><path d="m19.5 10.5-2.12-1.22-2.09.91L19.5 12.5l2.07-1.18c.6-.34.93-.82.93-1.33 0-.5-.33-.98-.93-1.32L19.5 10.5z"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+
+  <h2 id="ai-method">Technique 7: The AI Photo Identification Method</h2>
+
+  <p>All six techniques above require knowledge that takes years to develop. You need to know what Victorian dovetails look like versus Georgian ones, which Staffordshire factories used which marks, and what a genuine Art Nouveau curve looks like versus a reproduction. That's the barrier that stops most people from ever getting a confident identification.</p>
+
+  <p>This is precisely why AI antique identification apps have become genuinely useful tools — not a gimmick, but a real accelerant for both beginners and experienced collectors.</p>
+
+  <h3>How AI Antique Identification Works</h3>
+  <p>Modern AI antique apps like <strong>Relico</strong> use computer vision models trained on millions of antique images — auction records, museum catalogues, dealer databases, and appraisal records. When you photograph your item, the AI analyses the same visual signals a human expert would look at — construction style, material appearance, decorative motifs, marking shapes — and returns a match with the item name, period, probable origin, and estimated current market value.</p>
+
+  <p>The key advantage over a generic image search (like Google Lens) is specificity. A purpose-built antique AI doesn't just tell you "this looks like a Victorian vase" — it can identify the specific factory, approximate date range, and give you a current resale value based on recent auction data.</p>
+
+  <h3>When to Use AI vs Manual Research</h3>
+  <ul>
+    <li><strong>Use AI first</strong> to get a starting point quickly. Even if the AI isn't 100% certain, it will narrow down the period, type, and probable origin, giving you a framework for deeper research.</li>
+    <li><strong>Use manual techniques</strong> to confirm the AI's identification and look for red flags the camera might not capture (weight, smell of old wood, texture of aged surfaces).</li>
+    <li><strong>Use both together</strong> for items that might be genuinely valuable — a quick AI scan for orientation, then manual verification of the key physical clues.</li>
+  </ul>
+
+  <div class="tip-box">
+    <div class="tip-label">📱 Getting the Best Results from AI Identification</div>
+    <p>Always photograph in natural light, never flash. Take multiple angles — front, base, hardware close-up. Clean the item lightly before photographing (a damp cloth can reveal marks that were buried under grime). The more detail the AI can see, the more precise the identification.</p>
+  </div>
+
+  <h2 id="valuation">Getting a Valuation: From Identification to Market Value</h2>
+
+  <p>Identifying what an antique is and knowing what it's worth are two different questions. Once you have a confident identification, here's how to establish current market value:</p>
+
+  <ol>
+    <li><strong>Check recent auction results</strong> on platforms like LiveAuctioneers, Invaluable, and Sotheby's. Search for your specific item — not just the general category. A Georgian mahogany Chippendale chair is a very different market from a generic "Georgian chair."</li>
+    <li><strong>Check current dealer listings</strong> on 1stDibs, Chairish, and Ruby Lane. These show asking prices (which are typically 30–50% above actual sale prices, but useful for benchmarking).</li>
+    <li><strong>Use an AI valuation app</strong> like Relico for a quick estimated range based on current market data. This is the best starting point for understanding ballpark value before spending time on deeper research.</li>
+    <li><strong>Get a formal appraisal</strong> for any item you suspect might be worth more than a few hundred pounds or dollars — especially before selling, insuring, or donating. A certified appraiser's opinion is legally defensible in ways that AI estimates are not.</li>
+  </ol>
+
+  <div class="warn-box">
+    <div class="warn-label">⚠️ Important Note</div>
+    <p>AI valuations — including those from Relico — are estimates based on comparable market data, not formal appraisals. They're excellent for quick orientation and deciding whether to pursue a formal appraisal, but should not be used for insurance, estate, or legal purposes without a certified appraiser's confirmation.</p>
+  </div>
+
+  <div class="ornamental-div">✦ ✦ ✦</div>
+
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div class="faq-section">
+    <div class="faq-item">
+      <div class="faq-q">Can you identify an antique from a photo alone?</div>
+      <div class="faq-a">Yes — and it's how most professional appraisers start the process. A clear, well-lit photograph captures the joinery type, saw marks, hardware style, wood grain, maker's marks, and surface patina that experts use to date and identify antiques. AI antique identifier apps like Relico are trained specifically to analyse these visual clues and can return an identification, period, and estimated value in seconds.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What is the best free app to identify antiques by photo?</div>
+      <div class="faq-a">Relico (available free on iOS and Android) is purpose-built for antique identification. It uses AI trained on millions of auction records and museum catalogues to identify furniture, ceramics, silver, jewellery, and collectibles from a photo. The core identification features are free, with optional premium features for deeper valuations.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I know if my antique is real or a reproduction?</div>
+      <div class="faq-a">Look at the joinery (hand-cut dovetails are irregular; machine-cut ones are perfect), saw marks on the underside (straight pre-1840, curved arcs post-1840), nail type (hand-forged, cut, or wire nail), and overall wood weight. Reproductions tend to have overly uniform construction, artificial-looking patina that doesn't penetrate into crevices, and modern hardware hidden in less obvious places. When in doubt, the base of a ceramic or the back of a painting will often reveal modern materials or printing techniques not available in the claimed period.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I find the value of an antique item?</div>
+      <div class="faq-a">Start with a confident identification using the techniques in this guide or an AI app like Relico. Then search recent auction results on LiveAuctioneers or Invaluable for your specific item. For a quick estimated range, Relico's AI valuation feature cross-references current market data. For items potentially worth more than a few hundred dollars, get a formal appraisal from a certified appraiser — it's usually worth the cost.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What does a diamond-shaped mark mean on pottery?</div>
+      <div class="faq-a">A diamond-shaped registration mark on British pottery means the design was registered with the British Patent Office, which was mandatory for goods sold in Britain between 1842 and 1883. The mark encodes the exact date of registration using letters in each corner of the diamond. This makes it one of the most precise dating tools in antique ceramics — if you can decode the letters, you have the year, month, and day the design was first registered.</div>
+    </div>
+  </div>
+
+  <div class="app-cta">
+    <div>
+      <div class="app-cta-eyebrow">📱 Try It Now — Free</div>
+      <h3>Put these techniques together in one photo</h3>
+      <p>The Relico app identifies antiques by photo using all seven of these techniques simultaneously — joinery, marks, style, hardware, and more — in the time it takes to snap a picture. Free to download on iOS and Android.</p>
+    </div>
+    <div class="app-cta-buttons">
+      <a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659" class="btn-store">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share" class="btn-store">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.2L15.5 12 3.18 0c-.36-.05-.7.03-.99.2C1.79.64 1.5 1.33 1.5 2.24v19.52c0 .91.29 1.6.87 1.94l.81-1-.81 1z"/><path d="m13.36 10.06-2.5-2.5L5.5 2.56 16.35 8.76l-2.99 1.3z"/><path d="m16.35 15.24-11.9 6.2 5.41-5.41 2.5-2.5 2.99 1.3 1.02.41z"/><path d="m19.5 10.5-2.12-1.22-2.09.91L19.5 12.5l2.07-1.18c.6-.34.93-.82.93-1.33 0-.5-.33-.98-.93-1.32L19.5 10.5z"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+
+  <h2>The Bottom Line</h2>
+
+  <p>Identifying antiques by photo is a learnable skill — and it gets dramatically easier once you know which visual clues carry the most information. The joinery tells you the manufacturing era. The saw marks confirm it. The hardware adds precision. The marks give you the maker. The style places it in a cultural moment. And the patina, weight, and surface tell you whether those signals are real or artificially created.</p>
+
+  <p>Working through all seven steps manually takes practice, patience, and a growing reference library. But every one of these signals can also be read by a good AI antique identifier — and apps like Relico have been trained specifically to spot them, cross-reference them against millions of documented antiques, and return an identification in the time it takes to take a photograph.</p>
+
+  <p>Whether you use the manual techniques, the AI shortcut, or both together, you're now better equipped to look at an unknown object and start reading the story it's been telling all along — in its joints, its marks, its wood, and its age.</p>
+
+</article>
+    `
   }
 ];
 
