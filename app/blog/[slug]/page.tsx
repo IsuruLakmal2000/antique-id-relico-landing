@@ -80,6 +80,7 @@ export default async function BlogPost({ params }: Props) {
 
     if (!post) {
         notFound();
+        return null;
     }
 
     const relatedPosts = blogPosts

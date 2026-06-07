@@ -8,6 +8,8 @@ interface PseoSeed {
   inspectionPoints: string[];
   fakeSignals: string[];
   valueBand: string;
+  detailedOverview: string;
+  additionalSection: string;
 }
 
 interface GeneratedBlogPost {
@@ -58,6 +60,8 @@ const seeds: PseoSeed[] = [
       "Mismatched maker mark and design period.",
     ],
     valueBand: "$40 to $3,000+ depending on rarity and condition",
+    detailedOverview: "In recent years, the intersection of mobile technology and historical preservation has changed how collectors and hobbyists operate. An antique identifier app uses advanced computer vision and visual search technology to analyze shapes, designs, materials, and maker's marks from photographs, cross-referencing them with digital databases of auction results and historical catalogs.",
+    additionalSection: "While technology offers incredible speed, it is vital to know that an app's primary function is matching and identifying, not certifying. Professional appraisal requires checking structural integrity, physical wood scents, and back-panel saw markings that no camera can fully sense. Use the app to locate the maker, then perform hands-on checks.",
   },
   {
     keyword: "antique identifier app free",
@@ -78,6 +82,8 @@ const seeds: PseoSeed[] = [
       "Value based on asking prices, not sold comps.",
     ],
     valueBand: "$20 to $1,500 in most casual resale scenarios",
+    detailedOverview: "Finding a free antique identifier app is a priority for casual sellers cleaning out an attic or browsing garage sales. These apps act as an immediate visual index, allowing you to quickly check if a piece of pottery or a vintage light fixture has potential market value before negotiating.",
+    additionalSection: "To get the most accurate results without spending money, photograph your items against a solid, neutral background. Direct, bright sunlight is excellent for capturing fine details on metal or ceramic glazes. Avoid taking photos from too close, as it can cause perspective warping.",
   },
   {
     keyword: "identify antiques by photo",
@@ -98,6 +104,8 @@ const seeds: PseoSeed[] = [
       "Replica marks that look shallow or blurred.",
     ],
     valueBand: "$50 to $5,000 based on maker, age, and provenance",
+    detailedOverview: "Learning how to identify antiques by photo is an essential skill in the digital age, where estate sales and auctions are increasingly held online. By photographing key inspection points, you can solicit opinions from online forums or input them into search tools to isolate the exact period of manufacture.",
+    additionalSection: "When relying on photography for authentication, remember that angle matters. For furniture, a photo of the bottom of the drawer tells an expert far more than a polished front panel. For glassware, a close-up of the pontil mark on the base is key to distinguishing hand-blown pieces from modern machine molds.",
   },
   {
     keyword: "identify antiques by picture app",
@@ -118,6 +126,8 @@ const seeds: PseoSeed[] = [
       "Assuming age equals high value every time.",
     ],
     valueBand: "$30 to $2,200 for most non-rare household antiques",
+    detailedOverview: "For immediate feedback in the field, an app that lets you identify antiques by picture is an indispensable tool. Whether you're standing in a busy antique mall or a dusty estate barn, these apps search the web's massive database of antique listings in real-time, giving you an immediate competitive advantage.",
+    additionalSection: "To ensure accuracy when using a picture app, take separate close-up photos of maker stamps, artist signatures, or silver hallmarks. These small details are the 'fingerprints' of the object. A general photo of a plate might match thousands of patterns, but the mark on the back isolates the exact maker and decade.",
   },
   {
     keyword: "app to identify antique items",
@@ -138,6 +148,8 @@ const seeds: PseoSeed[] = [
       "Over-polished surfaces hiding age evidence.",
     ],
     valueBand: "$25 to $1,800 for common collector categories",
+    detailedOverview: "Having a specialized app to identify antique items is like walking into a shop with an expert by your side. These tools use machine learning models trained on millions of images of historical decor, furniture, and collectibles, allowing them to classify objects across multiple categories instantly.",
+    additionalSection: "When cataloging a large family collection or preparing for an estate sale, organize your photo scans by material (e.g., sterling silver, brass, porcelain, oak). This structured approach makes it easier to track app recommendations and double-check them against pricing guides.",
   },
   {
     keyword: "how much is my antique worth",
@@ -158,6 +170,8 @@ const seeds: PseoSeed[] = [
       "Confusing insurance value with resale value.",
     ],
     valueBand: "$60 to $6,000 depending on type and market demand",
+    detailedOverview: "Determining how much an antique is worth requires looking beyond raw age. Value is a product of supply, demand, condition, and provenance. An item that is two hundred years old might be worth very little if it is in poor condition or if there are no collectors seeking it, while a rare mid-century piece can command thousands.",
+    additionalSection: "Be careful to distinguish between different types of valuation. 'Retail value' is what you would expect to pay in a high-end antique shop. 'Fair market value' is what a willing buyer and seller would agree on in an open market (like an auction). 'Insurance value' is the cost to replace the item and is usually the highest figure.",
   },
   {
     keyword: "antique value checker",
@@ -178,6 +192,8 @@ const seeds: PseoSeed[] = [
       "Not updating values with current market trends.",
     ],
     valueBand: "$40 to $4,500 in most consumer resale channels",
+    detailedOverview: "An online antique value checker is a useful starting point for anyone who needs to estimate the resale value of a collectible. By aggregating historical sales data from multiple marketplaces, these tools provide a quick pricing bracket that helps you decide if a piece is worth a professional appraisal.",
+    additionalSection: "Always remember that value checkers give estimates based on recent historical sales. If a particular category is experiencing a temporary surge in popularity, the actual market value might be higher. Conversely, if demand has cooled, the item may sit on the market for a long time at the estimated price.",
   },
   {
     keyword: "antique price checker",
@@ -198,6 +214,8 @@ const seeds: PseoSeed[] = [
       "Pricing without condition photos.",
     ],
     valueBand: "$75 to $7,500 for quality items with clear attribution",
+    detailedOverview: "For dealers and active resellers, a reliable antique price checker is critical for maintaining profitable margins. Knowing the exact price range for which an item has recently sold prevents you from overpaying at sourcing events and helps you set competitive prices for your own inventory.",
+    additionalSection: "When evaluating price comparisons, pay close attention to regional differences. Heavy oak furniture might sell for a premium in a historic metropolitan area but go cheap in a rural area where shipping is prohibitively expensive. Factor in shipping costs and platform fees before listing.",
   },
   {
     keyword: "antique appraisals online",
@@ -218,6 +236,8 @@ const seeds: PseoSeed[] = [
       "No condition qualifiers in final result.",
     ],
     valueBand: "$100 to $15,000+ across app and expert channels",
+    detailedOverview: "Online antique appraisals have become a popular alternative to traditional in-person assessments. They offer a convenient way to get a certified appraiser's opinion on an item by submitting high-resolution photographs, detailed dimensions, and any known family history.",
+    additionalSection: "When ordering an appraisal online, the quality of your submission directly affects the accuracy of the report. Provide clear, well-lit photos from every angle, including the underside. Disclose any repairs, cracks, or modifications, as hiding them will only result in an inaccurate valuation.",
   },
   {
     keyword: "vintage glass identification",
@@ -238,6 +258,8 @@ const seeds: PseoSeed[] = [
       "Fantasy marks not tied to known makers.",
     ],
     valueBand: "$20 to $2,800 for most collectible glass categories",
+    detailedOverview: "Vintage glass identification is a complex but rewarding field for collectors. From elegant depression glass to mid-century art glass, understanding how to recognize different manufacturing techniques and styles allows you to spot rare, high-value pieces that others might mistake for common kitchenware.",
+    additionalSection: "One of the first checks in glass identification is looking for mold seams. Hand-blown glass will have a pontil scar on the bottom (where it was broken off the blowpipe) and no seams. Machine-made glass will have visible mold lines running down the sides, indicating a 20th-century mass-production origin.",
   },
   {
     keyword: "vintage glass identification marks",
@@ -258,6 +280,8 @@ const seeds: PseoSeed[] = [
       "Etch quality too fresh for claimed age.",
     ],
     valueBand: "$35 to $3,200 when marks match known production years",
+    detailedOverview: "Many glass manufacturers left subtle clues on their creations, making vintage glass identification marks a crucial area of study. These marks can be embossed, acid-etched, or paper labels, and they provide the definitive proof of maker and production era.",
+    additionalSection: "Acid-etched signatures can be extremely faint and difficult to see with the naked eye. Hold the glass under a strong light at an angle, or use a jeweler's loupe to inspect the center of the base. Famous makers like Baccarat, Fenton, and Heisey all used distinct signatures that evolved over time.",
   },
   {
     keyword: "antique marks and symbols",
@@ -270,7 +294,7 @@ const seeds: PseoSeed[] = [
       "Locate all marks, not just the main stamp.",
       "Record shape, letters, and purity numbers.",
       "Cross-reference with trusted hallmark databases.",
-      "Validate mark against object style and material.",
+      "Verify mark against object style and material.",
     ],
     fakeSignals: [
       "Random symbol combinations with no provenance.",
@@ -278,6 +302,8 @@ const seeds: PseoSeed[] = [
       "Misaligned stamp placement for known manufacturers.",
     ],
     valueBand: "$50 to $8,000 depending on maker and rarity",
+    detailedOverview: "Decoding antique marks and symbols is like reading a secret historical code. These tiny stamps on the bottom of a porcelain plate, the inside of a silver ring, or the back of a clock tell the story of the craftsman, the place of origin, and the year the item was created.",
+    additionalSection: "British silver hallmarking is perhaps the most famous and comprehensive system. A standard British hallmark includes a symbol for silver purity (like the walking lion for sterling), an assay office mark (like the anchor for Birmingham), and a date letter that specifies the exact year of manufacture.",
   },
 ];
 
@@ -301,7 +327,10 @@ function buildContent(seed: PseoSeed): string {
 
   return `
     <h2>${seed.keyword}: what you should verify first</h2>
-    <p>This guide is built for people trying to evaluate ${seed.objectType}. Instead of relying on one guess, use a repeatable inspection process that combines photos, historical clues, and sold-market evidence.</p>
+    <p>${seed.detailedOverview}</p>
+
+    <h3>Understanding ${seed.objectType}</h3>
+    <p>${seed.additionalSection}</p>
 
     <h3>Fast 4-step inspection checklist</h3>
     <ul>${points}</ul>
