@@ -100,16 +100,23 @@ export default function RootLayout({
           />
         </noscript>
         <Script
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDRRHP3"
+          src="https://www.googletagmanager.com/gtag/js?id=G-K8VF3WQQ8W"
           strategy="afterInteractive"
         />
-        <Script id="google-tag-manager" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-K8VF3WQQ8W', {
+              page_path: window.location.pathname,
+            });
           `}
         </Script>
+        <Script
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-MHDRRHP3"
+          strategy="afterInteractive"
+        />
         {children}
       </body>
     </html>
