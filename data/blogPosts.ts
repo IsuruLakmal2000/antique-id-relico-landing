@@ -2281,6 +2281,120 @@ const baseBlogPosts: BlogPost[] = [
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
       <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
+  },
+  {
+    id: "15",
+    title: "Antique Jewelry Hallmarks: How to Read Gold, Silver and Platinum Marks",
+    slug: "antique-jewelry-hallmarks-gold-marks-guide",
+    excerpt: "Decode antique jewelry hallmarks: 375, 585, 750 and 925 purity marks, British assay offices, French eagle heads, gold-filled stamps and costume jewelry signatures.",
+    author: "Relico Editorial Team",
+    date: "November 17, 2026",
+    readTime: "10 min read",
+    category: "Jewelry",
+    imageUrl: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=2044&auto=format&fit=crop",
+    content: `
+      <h2>Antique Jewelry Hallmarks: The Short Answer</h2>
+      <p><strong>Antique jewelry hallmarks are small stamped marks that state a piece's metal purity, and often the maker, assay office, country, and year of manufacture.</strong> A number such as 375, 585, 750, or 925 tells you the proportion of precious metal in parts per thousand. A symbol such as a leopard's head, an anchor, or an eagle's head tells you where the piece was tested. This guide explains how to read gold marks, platinum marks, silver marks, and costume jewelry stamps, and how to avoid common traps such as gold-plate abbreviations and fake marks.</p>
+
+      <h2>What Is a Hallmark, and How Is It Different From a Maker's Mark?</h2>
+      <p><strong>A hallmark is an official mark applied by an assay office after testing the metal, while a maker's mark (or sponsor's mark) is the manufacturer's own stamp.</strong> In the United Kingdom, a full hallmark traditionally includes a sponsor's mark, a fineness (purity) mark, an assay office mark, and a date letter. In the United States there is no equivalent compulsory assay system, so marks are mostly maker-applied purity claims under the National Gold and Silver Stamping Act, usually accompanied by a trademark. Always look in inconspicuous places: inside ring bands, on the bar of a brooch, beside the clasp of a necklace, and on the tiny tag of a bracelet. Use a 10x loupe and a raking light, because worn marks are often shallow.</p>
+
+      <h2>Gold Purity Marks: Karats and Fineness Numbers</h2>
+      <p><strong>Gold purity is stated either in karats (out of 24) or as a three-digit fineness number (parts per 1,000).</strong> Pure gold is 24 karat, and lower karats are alloyed with copper, silver, or zinc for hardness and colour. The table below shows the marks you are most likely to find.</p>
+      <table>
+        <thead><tr><th>Mark</th><th>Purity</th><th>Gold content</th><th>Typical origin</th></tr></thead>
+        <tbody>
+          <tr><td>375 or 9ct</td><td>9 karat</td><td>37.5%</td><td>United Kingdom (legal standard since 1854)</td></tr>
+          <tr><td>417 or 10k</td><td>10 karat</td><td>41.7%</td><td>United States, Canada</td></tr>
+          <tr><td>585 or 14k</td><td>14 karat</td><td>58.5%</td><td>United States, Germany, Russia</td></tr>
+          <tr><td>750 or 18k</td><td>18 karat</td><td>75%</td><td>France, Italy, Switzerland, UK</td></tr>
+          <tr><td>916 or 22ct</td><td>22 karat</td><td>91.6%</td><td>UK, India, Middle East, Sri Lanka</td></tr>
+          <tr><td>999 or 24k</td><td>24 karat</td><td>99.9%</td><td>Bullion, South and East Asia</td></tr>
+        </tbody>
+      </table>
+      <p>Russian gold carries a different scheme: a 56 or 72 zolotnik mark (equal to roughly 14 and 18 karat) under the imperial system, often alongside an assay master's initials and a kokoshnik (woman's head) mark after 1896. Always read the number together with the style of the piece, because a modern stamp on a Victorian-looking brooch can signal a later copy.</p>
+
+      <h2>Platinum and Palladium Marks</h2>
+      <p><strong>Platinum jewelry is typically marked 950, 900, "PLAT", or "PT", and it became common in fine jewelry from about 1900 to 1940.</strong> Edwardian and Art Deco pieces often combine platinum settings with diamonds, because platinum is strong enough to hold stones with very delicate claws. Palladium marks (950 Pd) appear on mid-20th-century and modern pieces. Be cautious about pieces stamped "10k PLAT" or "14k PLAT" on the same item: older white-gold-and-platinum composites sometimes carry both marks because only part of the piece is platinum.</p>
+
+      <h2>Silver Marks on Jewelry</h2>
+      <p><strong>Sterling silver is 92.5% pure silver and is marked 925, "STERLING", or on British pieces with a lion passant.</strong> Continental silver may be marked 800 or 835 (Germany) and 900 (France, Canada, US coin silver). Mexican silver often carries "TAXCO" or an eagle mark with a number. For detailed British and European silver symbols, our guide to <a href="https://antiqueidentifier.site/blog/antique-silver-hallmarks-explained">antique silver hallmarks explained</a> shows the lion passant, town marks, and duty marks in depth.</p>
+
+      <h2>British Hallmarks: Assay Offices and Date Letters</h2>
+      <p><strong>British hallmarks combine four elements, and the assay office symbol plus the date letter let you date a piece to a specific year.</strong> The compulsory marks include the sponsor's initials, a purity mark, an assay office mark, and, until 1999, a date letter. Since 1999 the date letter is optional.</p>
+      <table>
+        <thead><tr><th>Assay office</th><th>Symbol</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>London</td><td>Leopard's head</td><td>Crowned until 1821, uncrowned after</td></tr>
+          <tr><td>Birmingham</td><td>Anchor</td><td>Founded in 1773, a major jewelry centre</td></tr>
+          <tr><td>Sheffield</td><td>Rose (previously a crown)</td><td>Crown used until 1975</td></tr>
+          <tr><td>Edinburgh</td><td>Castle</td><td>Thistle for Scottish silver</td></tr>
+          <tr><td>Chester</td><td>Three wheatsheaves</td><td>Closed in 1962</td></tr>
+        </tbody>
+      </table>
+      <p>Gold purity in older British hallmarks was shown as 18, 15, 12, or 9 with a crown. The 15 and 12 carat standards were abolished in 1932, so a 15ct mark on a brooch generally points to a piece made between about 1854 and 1932, which is a very useful date range for Victorian and Edwardian jewelry.</p>
+
+      <h2>French, Italian, and Swiss Gold Marks</h2>
+      <p><strong>French gold is marked with an eagle's head for 18 karat gold (750) and a dog's head for platinum, which makes French pieces easy to recognise.</strong> Since 1838, the eagle's head in profile has been the standard French 18k mark. A lozenge-shaped maker's mark with initials and a device sits beside it. Italian jewelry usually carries a star plus a number for the province and a fineness number, as in "750" with "MI 123". Swiss pieces can carry a Helvetia head, a bear (Bern assay), or a pair of dots and stamps on watch cases. If you are checking an imported estate piece, compare the marks to published tables for the nation named on the clasp or box.</p>
+
+      <h2>Gold-Plated, Gold-Filled, and Rolled Gold Marks</h2>
+      <p><strong>Plated and filled marks such as GF, GP, HGE, RGP, and "rolled gold" mean the piece has only a surface layer of gold over base metal and is not solid gold.</strong> Understanding them prevents expensive mistakes.</p>
+      <ul>
+        <li><strong>GF or "gold filled":</strong> a thick layer of gold bonded to brass, usually at least 1/20 of the total weight. Common from the 1900s to the 1960s and durable for decades.</li>
+        <li><strong>RGP or "rolled gold plate":</strong> a thinner layer than gold filled, widespread in British jewelry from the 1920s.</li>
+        <li><strong>HGE:</strong> "heavy gold electroplate", a very thin layer applied by electrolysis, found on mid-20th-century pieces.</li>
+        <li><strong>GP, GEP:</strong> gold plate or gold electroplate, typically worth little beyond the style value.</li>
+        <li><strong>Pinchbeck:</strong> a brass alloy with a gold look, popular in 18th-century England, and highly collectible today.</li>
+      </ul>
+
+      <h2>Costume Jewelry Marks and Signatures</h2>
+      <p><strong>Costume jewelry is usually identified by a maker's name, a copyright symbol, or a patent number rather than by a purity mark.</strong> Names such as Trifari, Coro, Weiss, Eisenberg, Miriam Haskell, and Napier appear in raised script or block capitals. The copyright symbol (©) on American jewelry generally indicates production after 1955, and "Pat. Pend." or "Des. Pat." with a number can be looked up in patent records. Unmarked pieces are not automatically worthless, because many fine Art Deco and Victorian items were never signed. Clues such as hand-set paste stones, open-backed settings, and foiled stones point to older work, while glued-in stones and modern clasps suggest later manufacture.</p>
+
+      <h2>Era Dating by Style and Construction</h2>
+      <p><strong>Jewelry styles follow clear date ranges that help you confirm what a hallmark suggests.</strong></p>
+      <ul>
+        <li><strong>Georgian (1714 to 1837):</strong> closed-back settings, foil-backed stones, handmade fittings, rose-cut diamonds.</li>
+        <li><strong>Victorian (1837 to 1901):</strong> lockets, mourning jewelry with jet or hair, cannetille work, seed pearls, and garnets.</li>
+        <li><strong>Edwardian (1901 to 1915):</strong> platinum filigree, garlands, and old-cut diamonds.</li>
+        <li><strong>Art Nouveau (1890 to 1910):</strong> flowing nature motifs, enamel, and moonstones.</li>
+        <li><strong>Art Deco (1920 to 1939):</strong> geometric lines, calibre-cut stones, and platinum with onyx or emerald.</li>
+        <li><strong>Retro (1940 to 1950):</strong> bold rose gold, large cocktail stones, and bow motifs.</li>
+      </ul>
+      <p>For a broader checklist to separate period pieces from reproductions, read our guide on <a href="https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques">how to identify real vs. fake antiques</a>.</p>
+
+      <h2>Simple Tests to Check a Hallmark</h2>
+      <p><strong>A hallmark claim can be checked with simple, non-destructive tests before you consider paying for professional testing.</strong></p>
+      <ul>
+        <li><strong>Magnet test:</strong> gold, silver, and platinum are not magnetic. A strong attraction means base metal inside.</li>
+        <li><strong>Loupe check:</strong> real hallmarks are crisp, evenly spaced, and slightly worn at edges. Blurred or oversized marks can be a sign of a cast copy.</li>
+        <li><strong>Weight check:</strong> solid gold feels heavier than plated brass of the same size. Compare with a known piece.</li>
+        <li><strong>Colour wear:</strong> look at high-wear points. Brassy or silvery patches showing through suggest plating.</li>
+        <li><strong>Professional testing:</strong> an assay office, a jeweler with an XRF analyser, or an acid and electronic test confirms purity without guesswork.</li>
+      </ul>
+      <blockquote>Rule of thumb: a hallmark tells you what the metal is claimed to be. Construction, wear, and style tell you whether to believe the claim.</blockquote>
+
+      <h2>Valuing Hallmarked Jewelry</h2>
+      <p><strong>Value combines metal weight, gemstone quality, maker, age, and condition, and the maker's name often matters more than the gold content for signed pieces.</strong> A hallmarked 9ct Victorian locket may be worth only a little above scrap, while a signed Cartier, Tiffany, or Fabergé-style piece can be worth many times the metal. Check sold prices from auction houses, not asking prices. For a complete method, see our <a href="https://antiqueidentifier.site/blog/how-much-is-my-antique-worth-complete-valuation-guide-2026">antique valuation guide</a>. Never polish or clean a patinated antique piece aggressively before an appraisal, since this can remove value.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What does 585 mean on jewelry?</h3>
+      <p>585 means the item is 58.5% pure gold, which equals 14 karat gold. It is the most common gold mark in Germany, Russia, and the United States.</p>
+      <h3>Is unmarked jewelry real gold?</h3>
+      <p>It can be. Many antique pieces were made before marks were compulsory, or the marks have worn away. A jeweler or assay office can test the metal.</p>
+      <h3>What does 925 mean on a ring?</h3>
+      <p>925 means sterling silver, which is 92.5% silver and 7.5% other metals, usually copper.</p>
+      <h3>How can I date a British hallmark?</h3>
+      <p>Find the date letter and the assay office symbol, then compare them to a published date letter chart for that office. The font and shield shape differ for each cycle.</p>
+      <h3>Does a copyright symbol mean jewelry is not antique?</h3>
+      <p>On American costume jewelry, a © mark generally indicates production after 1955. The piece may still be vintage and collectible, but it is not antique in the strict 100-year sense.</p>
+
+      <h2>Identify Your Jewelry With Relico</h2>
+      <p>If you have a ring, brooch, or necklace with marks you cannot read, Relico can help. Photograph the piece and its hallmarks clearly, and the app suggests likely era, style, and value range, which you can then verify against assay office tables and a professional jeweler.</p>
+
+      <h3>Ready to Identify Your Antiques?</h3>
+      <p>Download Relico now and start discovering the hidden value in your treasures.</p>
+      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+    `
   }
 ];
 

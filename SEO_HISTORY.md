@@ -27,3 +27,7 @@ Cadence: 1 article / 2 days. Check this file first to avoid cannibalization and 
 - Added cluster-based related articles, auto FAQPage + BreadcrumbList JSON-LD, real dateModified, "Updated" label, single author (Isuru).
 - Sitemap uses real post dates; stale public/sitemap-static.xml deleted.
 - Rule going forward: do not publish a new URL if it duplicates an intent in the clusters; expand the pillar instead.
+
+## 2026-11-17 (second run)
+| 2026-11-17 | antique-jewelry-hallmarks-gold-marks-guide | antique jewelry hallmarks | Jewelry | ~1,700 words, 2 tables, FAQ x5, links to silver hallmarks, real-vs-fake, valuation. Added to "marks" cluster. Unsplash image 1515562141207 unverified (no network). |
+- Backlog next: antique clocks/watches, pottery vs porcelain, British silver date letters, rugs, lithographs, Sri Lanka/South Asia antiques.

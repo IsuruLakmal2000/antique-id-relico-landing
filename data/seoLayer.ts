@@ -33,7 +33,7 @@ export const clusters: Record<string, string[]> = {
   valuation: [VALUATION, "free-online-antique-price-guide-value-treasures", "how-do-you-know-if-something-is-antique"],
   identification: [PHOTO, "how-do-you-know-if-something-is-antique", "how-to-identify-real-vs-fake-antiques", "antique-marks-and-symbols-decoding-guide"],
   furniture: [FURNITURE, "how-to-identify-real-vs-fake-antiques"],
-  marks: ["antique-marks-and-symbols-decoding-guide", "antique-silver-hallmarks-explained", "antique-porcelain-marks-identification-guide", "vintage-glass-identification-beginners-guide"],
+  marks: ["antique-marks-and-symbols-decoding-guide", "antique-silver-hallmarks-explained", "antique-porcelain-marks-identification-guide", "antique-jewelry-hallmarks-gold-marks-guide", "vintage-glass-identification-beginners-guide"],
   collectibles: ["how-to-identify-valuable-vintage-toys", "vintage-glass-identification-beginners-guide", "antique-porcelain-marks-identification-guide"],
 };
 
