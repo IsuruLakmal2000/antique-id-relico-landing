@@ -7,6 +7,7 @@ import { Lora, Outfit } from "next/font/google";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { relatedSlugsFor } from "@/data/seoLayer";
 
 interface Props {
     params: Promise<{ slug: string }>;
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     return {
-        title: `${post.title} | Relico Blog`,
+        title: { absolute: post.title.length > 50 ? post.title : `${post.title} | Relico` },
         description: post.excerpt,
         authors: [
             {
@@ -83,25 +84,54 @@ export default async function BlogPost({ params }: Props) {
         return null;
     }
 
-    const relatedPosts = blogPosts
-        .filter((candidate) => candidate.slug !== post.slug && candidate.category === post.category)
-        .slice(0, 3);
-
-    const fallbackRelatedPosts =
-        relatedPosts.length < 3
-            ? blogPosts
-                  .filter(
-                      (candidate) =>
-                          candidate.slug !== post.slug && !relatedPosts.some((related) => related.slug === candidate.slug)
-                  )
-                  .slice(0, 3 - relatedPosts.length)
-            : [];
-
-    const finalRelatedPosts = [...relatedPosts, ...fallbackRelatedPosts];
+    const clusterRelated = relatedSlugsFor(post.slug)
+        .map((slug) => blogPosts.find((candidate) => candidate.slug === slug))
+        .filter((candidate): candidate is (typeof blogPosts)[number] => Boolean(candidate));
+    const fillers = blogPosts.filter(
+        (candidate) => candidate.slug !== post.slug && !clusterRelated.some((related) => related.slug === candidate.slug)
+    );
+    const finalRelatedPosts = [...clusterRelated, ...fillers].slice(0, 3);
 
     const parsedDate = new Date(post.date);
     const datePublished = Number.isNaN(parsedDate.getTime()) ? new Date().toISOString() : parsedDate.toISOString();
     const postUrl = `${baseUrl}/blog/${post.slug}`;
+    const parsedModified = post.updated ? new Date(post.updated) : parsedDate;
+    const dateModified = Number.isNaN(parsedModified.getTime()) ? datePublished : parsedModified.toISOString();
+
+    // Auto-generate FAQPage schema from the "Frequently Asked Questions" / FAQ section.
+    const faqStart = post.content.search(/<h[23][^>]*>\s*(Frequently Asked Questions|FAQ)/i);
+    const faqItems: { q: string; a: string }[] = [];
+    if (faqStart !== -1 && !post.slug.includes("by-photo")) {
+        const faqHtml = post.content.slice(faqStart);
+        const re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi;
+        let m: RegExpExecArray | null;
+        const strip = (t: string) => t.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+        while ((m = re.exec(faqHtml)) !== null) {
+            const q = strip(m[1]);
+            if (q.endsWith("?")) faqItems.push({ q, a: strip(m[2]) });
+        }
+    }
+    const faqSchema =
+        faqItems.length > 0
+            ? {
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: faqItems.map((item) => ({
+                      "@type": "Question",
+                      name: item.q,
+                      acceptedAnswer: { "@type": "Answer", text: item.a },
+                  })),
+              }
+            : null;
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: baseUrl },
+            { "@type": "ListItem", position: 2, name: "Blog", item: `${baseUrl}/blog` },
+            { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+        ],
+    };
     const isPhotoGuide = post.slug === "how-to-identify-antiques-by-photo";
 
     const photoGuideArticleSchema = `{
@@ -113,7 +143,8 @@ export default async function BlogPost({ params }: Props) {
     "dateModified": "2026-05-21",
     "author": {
         "@type": "Person",
-        "name": "Relico Editorial Team"
+        "name": "Isuru",
+        "url": "https://antiqueidentifier.site/authors/isuru"
     },
     "publisher": {
         "@type": "Organization",
@@ -172,7 +203,7 @@ export default async function BlogPost({ params }: Props) {
         description: post.excerpt,
         image: [post.imageUrl],
         datePublished,
-        dateModified: datePublished,
+        dateModified,
         author: {
             "@type": "Person",
             name: authorProfile.name,
@@ -210,6 +241,10 @@ export default async function BlogPost({ params }: Props) {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
             />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            {faqSchema && (
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            )}
             <Navbar />
 
             <article className={isPhotoGuide ? "pb-20 md:pb-32" : "pt-32 pb-20 md:pt-40 md:pb-32"}>
@@ -233,6 +268,11 @@ export default async function BlogPost({ params }: Props) {
                                     <Calendar className="w-4 h-4" />
                                     {post.date}
                                 </div>
+                                {post.updated && (
+                                    <div className="flex items-center gap-1">
+                                        <span>Updated {post.updated}</span>
+                                    </div>
+                                )}
                                 <div className="flex items-center gap-1">
                                     <Clock className="w-4 h-4" />
                                     {post.readTime}

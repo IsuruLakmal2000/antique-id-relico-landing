@@ -1,8 +1,16 @@
 import type { NextConfig } from "next";
+import { mergedSlugs } from "./data/seoLayer";
 
 const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
+  async redirects() {
+    return Object.entries(mergedSlugs).map(([from, to]) => ({
+      source: `/blog/${from}`,
+      destination: `/blog/${to}`,
+      permanent: true,
+    }));
+  },
   images: {
     remotePatterns: [
       {

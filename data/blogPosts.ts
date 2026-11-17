@@ -1,4 +1,5 @@
 import { pseoBlogPosts } from "@/data/pseoBlogPosts";
+import { mergedSlugs, applyExpansion, STANDARD_AUTHOR, UPDATED_DATE, expansions } from "@/data/seoLayer";
 
 export interface BlogPost {
   id: string;
@@ -11,6 +12,7 @@ export interface BlogPost {
   readTime: string;
   category: string;
   imageUrl: string;
+  updated?: string;
 }
 
 const baseBlogPosts: BlogPost[] = [
@@ -2102,7 +2104,7 @@ const baseBlogPosts: BlogPost[] = [
 
       <hr />
 
-      <p><em>Want to go deeper? Read our guides on <a href="https://antiqueidentifier.site/blog/how-to-identify-antique-furniture">How to Identify Antique Furniture</a>, <a href="https://antiqueidentifier.site/blog/how-to-tell-if-furniture-is-antique">How to Tell If Furniture Is Antique</a>, <a href="https://antiqueidentifier.site/blog/antique-marks-and-symbols-decoding-guide">Antique Marks and Symbols: How to Decode Them</a>, and <a href="https://antiqueidentifier.site/blog/how-to-determine-price-of-antique">How to Determine the Price of an Antique</a>.</em></p>
+      <p><em>Want to go deeper? Read our guides on <a href="https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques">How to Identify Real vs. Fake Antiques</a>, <a href="https://antiqueidentifier.site/blog/antique-marks-and-symbols-decoding-guide">Antique Marks and Symbols: How to Decode Them</a>, and <a href="https://antiqueidentifier.site/blog/how-much-is-my-antique-worth-complete-valuation-guide-2026">How Much Is My Antique Worth?</a>.</em></p>
     `
   },
   {
@@ -2192,7 +2194,106 @@ const baseBlogPosts: BlogPost[] = [
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
       <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
+  },
+  {
+    id: "14",
+    title: "Antique Porcelain Marks: How to Identify Maker, Origin, and Age",
+    slug: "antique-porcelain-marks-identification-guide",
+    excerpt: "Learn how to read antique porcelain marks from Meissen to Royal Worcester, spot fake reign marks, and use paste, glaze, and decoration to confirm age and value.",
+    author: "Relico Editorial Team",
+    date: "November 17, 2026",
+    readTime: "9 min read",
+    category: "Porcelain",
+    imageUrl: "https://images.unsplash.com/photo-1578301978162-7aae4d755744?q=80&w=2044&auto=format&fit=crop",
+    content: `
+      <h2>Antique Porcelain Marks: The Short Answer</h2>
+      <p><strong>Antique porcelain marks are the symbols, letters, crowned shields, or crossed lines on the underside of a piece that identify its maker, factory, and often its approximate date.</strong> A mark is a strong clue, not proof. Forgers copy famous marks constantly, so a genuine identification combines the mark with the paste (the body), the glaze, the decoration, and the shape. This guide shows how to read each of those clues and where marks tend to come from.</p>
+
+      <h2>What Is a Porcelain Mark, and Where Do You Find It?</h2>
+      <p><strong>A porcelain mark is any maker's identifier applied to a piece, either painted in underglaze blue, stamped in overglaze enamel, impressed into the clay, or printed by transfer.</strong> Turn the piece over and check the base, the inside of the foot ring, the back of figurines, and the inner rim of lids. Impressed marks are often faint, so tilt the piece under a raking light. Many fine antiques are unmarked entirely, especially before the 1800s, and an absence of a mark is not a sign of a fake.</p>
+      <ul>
+        <li><strong>Underglaze marks</strong> are applied before glazing and look slightly soft or sunk into the glaze. They tend to be original.</li>
+        <li><strong>Overglaze marks</strong> sit on top of the glaze and can be felt or seen as raised and slightly shiny. They are easier to fake.</li>
+        <li><strong>Impressed and incised marks</strong> are pressed or scratched into the clay, often with date codes or pattern numbers.</li>
+        <li><strong>Printed marks</strong> arrived with industrial transfer printing and are common on 19th-century English wares.</li>
+      </ul>
+
+      <h2>Famous European Porcelain Marks and Their Origins</h2>
+      <p><strong>European hard-paste porcelain began at Meissen, Saxony, around 1710, and nearly every major factory since has used a recognizable mark.</strong> The table below lists widely documented marks. Treat it as a starting point and always verify against a reference book or auction archive.</p>
+      <table>
+        <thead><tr><th>Factory</th><th>Region</th><th>Typical Mark</th><th>Approximate Period</th></tr></thead>
+        <tbody>
+          <tr><td>Meissen</td><td>Saxony, Germany</td><td>Crossed swords in underglaze blue</td><td>1720 onward; design varies by era</td></tr>
+          <tr><td>Sèvres</td><td>France</td><td>Interlaced L's, often with date letters</td><td>1740s onward</td></tr>
+          <tr><td>Royal Copenhagen</td><td>Denmark</td><td>Three wavy blue lines</td><td>1775 onward</td></tr>
+          <tr><td>Royal Worcester</td><td>England</td><td>Crown and circle with date dots or codes</td><td>1862 onward for the crowned circle</td></tr>
+          <tr><td>Royal Doulton</td><td>England</td><td>Lion and crown over a ring</td><td>Early 1900s onward</td></tr>
+          <tr><td>Nymphenburg</td><td>Bavaria, Germany</td><td>Impressed shield with a diamond lozenge pattern</td><td>1750s onward</td></tr>
+          <tr><td>Limoges</td><td>France</td><td>Varied, often "Limoges France" with a factory name</td><td>Late 1700s onward</td></tr>
+          <tr><td>Noritake</td><td>Japan</td><td>Letter "M" in a wreath, later "Noritake"</td><td>1904 onward</td></tr>
+        </tbody>
+      </table>
+      <p>Meissen illustrates why caution matters. Its crossed swords have been copied by dozens of imitators since the 1800s. Genuine Meissen swords are crisp and consistent, while many copies show wobbly, thick, or oddly angled lines.</p>
+
+      <h2>Asian Porcelain: Reign Marks and Why They Mislead</h2>
+      <p><strong>A reign mark is a six-character (sometimes four-character) Chinese inscription naming an emperor's reign period, usually placed on the base inside a double ring or square.</strong> Chinese potters also applied earlier reign marks to later pieces as a sign of respect, so a "Ming" mark on a vase does not mean the vase is Ming. Many pieces sold today carry reign marks from the Xuande or Kangxi periods and were made in the 19th or 20th century.</p>
+      <p>Judge Asian porcelain by the whole object. Look at the foot rim, the way the glaze pools, the weight in the hand, and the quality of the painting. Japanese export wares such as Imari and Satsuma follow different conventions, often using factory or artist signatures in script rather than reign marks.</p>
+
+      <h2>Reading Beyond the Mark: Paste, Glaze, and Decoration</h2>
+      <p><strong>Paste is the fired clay body of porcelain, and its color, translucency, and texture help date a piece even when the mark is missing or suspicious.</strong> Hard-paste porcelain (kaolin and feldspar, fired above about 1,300°C) feels cold and glassy and rings clearly when tapped. Soft-paste porcelain, used in early English and French factories, has a creamier look and a glaze that can craze or look slightly sugary. Bone china, developed in England in the late 1700s, is whiter and notably translucent.</p>
+      <h3>A Quick Bench Test Checklist</h3>
+      <ul>
+        <li><strong>Hold it to a light.</strong> True porcelain is translucent at thin edges. Earthenware is not.</li>
+        <li><strong>Tap it gently.</strong> A clear, bell-like ring suggests an intact porcelain body. A dull thud may point to a hidden crack or different material.</li>
+        <li><strong>Check the unglazed foot ring.</strong> Aged pieces show gentle wear, tiny scratches, and discoloration. Uniform, bright rims can signal a modern reproduction.</li>
+        <li><strong>Inspect the glaze.</strong> Look for tiny bubbles, pinholes, and subtle pooling that match the supposed period.</li>
+        <li><strong>Use a loupe on the decoration.</strong> Hand-painted work shows brush strokes. Modern decals show fine dot patterns.</li>
+        <li><strong>Check for repairs under UV light.</strong> Restored areas often glow differently from original glaze.</li>
+      </ul>
+
+      <h2>Spotting Fake and Reproduction Porcelain Marks</h2>
+      <p><strong>A reproduction mark is a copy of a famous factory mark applied to a piece the factory never made, either to deceive or simply as a style tribute.</strong> Warning signs include a mark that is too perfect and too bright, a blue that looks printed rather than painted, a mark that is the wrong size for the factory's known practice, and decoration that does not match the era the mark suggests. A mark that sits on top of worn glaze, or that looks fresh compared to heavy surface wear, deserves suspicion. For a wider overview of authenticity checks, see our guide on <a href="https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques">how to identify real vs. fake antiques</a>.</p>
+      <blockquote>Rule of thumb: the mark tells you who a piece claims to be from. The paste, glaze, and decoration tell you whether to believe it.</blockquote>
+
+      <h2>Dating Porcelain by Mark Style</h2>
+      <p><strong>Mark style changes in predictable ways, which makes it a useful dating tool when combined with other clues.</strong> The words "England" appearing alone generally indicate production after 1891 for pieces exported to the US because of the McKinley Tariff Act, while "Made in England" typically suggests the 20th century. "Occupied Japan" marks date to 1945-1952, and "Nippon" marks on Japanese porcelain imported to the US date to roughly 1891-1921. Registry diamonds on English wares (1842-1883) encode the date of registration and can be decoded with published tables. For help with other symbols you may find on the base, our <a href="https://antiqueidentifier.site/blog/antique-marks-and-symbols-decoding-guide">antique marks and symbols decoding guide</a> is a good companion.</p>
+
+      <h2>Valuing Antique Porcelain</h2>
+      <p><strong>Porcelain value depends on maker, rarity, condition, size, and decorative quality, and condition alone can change a price by a large factor.</strong> Hairline cracks, chips, restored areas, and worn gilding reduce value, while original boxes, matching sets, and clear provenance increase it. Compare your piece with recent sold prices rather than asking prices. The same process applies to any category, and our <a href="https://antiqueidentifier.site/blog/how-much-is-my-antique-worth-complete-valuation-guide-2026">guide to determining the price of an antique</a> walks through it step by step. If you are also working with household glassware, see <a href="https://antiqueidentifier.site/blog/vintage-glass-identification-beginners-guide">vintage glass identification</a>.</p>
+      <p>Care matters too. Wash porcelain by hand in lukewarm water, never in a dishwasher, and avoid abrasive cleaners that can strip gilding. Do not try to re-glue valuable pieces yourself, since poor repairs can reduce value further than the original damage.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>How can I tell if a porcelain mark is real?</h3>
+      <p>Compare the mark to documented examples from the factory, then check that the paste, glaze, shape, and decoration match the same period. A real mark on a mismatched object is a red flag.</p>
+      <h3>Does a missing mark mean my porcelain is not antique?</h3>
+      <p>No. Many early and valuable pieces were unmarked, and marks can be worn away or hidden under glaze. Judge by body, glaze, and style.</p>
+      <h3>What does "Made in Japan" mean for dating?</h3>
+      <p>The phrase generally appears on items made after about 1921, when US customs rules required "Japan" or "Made in Japan" for imports. Earlier items typically carry "Nippon."</p>
+      <h3>Are Chinese reign marks reliable?</h3>
+      <p>Often not. Later potters copied earlier reign marks as an homage, so the mark alone does not prove the date. Specialist assessment of the whole piece is recommended.</p>
+      <h3>How much is my porcelain worth?</h3>
+      <p>Value ranges from a few dollars for common transfer-printed wares to many thousands for rare factory pieces. Maker, condition, and recent sales of comparable items decide the figure.</p>
+
+      <h2>Identify Your Porcelain With Relico</h2>
+      <p>If you have a plate, vase, or figurine with a mark you cannot read, Relico can help. Photograph the piece and its base, and the app suggests likely makers, estimated eras, and value ranges, which you can then verify against reference sources.</p>
+
+      <h3>Ready to Identify Your Antiques?</h3>
+      <p>Download Relico now and start discovering the hidden value in your treasures.</p>
+      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+    `
   }
 ];
 
-export const blogPosts: BlogPost[] = [...pseoBlogPosts, ...baseBlogPosts];
+const rawPosts: BlogPost[] = [...pseoBlogPosts, ...baseBlogPosts];
+
+// SEO layer: merged/thin posts are removed (301-redirected in next.config.ts),
+// thin-but-unique posts are expanded, authors standardised, newest first.
+export const blogPosts: BlogPost[] = rawPosts
+  .filter((post) => !(post.slug in mergedSlugs))
+  .map((post) => ({
+    ...post,
+    author: STANDARD_AUTHOR,
+    content: applyExpansion(post.slug, post.content),
+    updated: post.slug in expansions ? UPDATED_DATE : post.updated,
+  }))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
