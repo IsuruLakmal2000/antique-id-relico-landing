@@ -11,7 +11,7 @@ export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleDownload = () => {
-        const appStoreUrl = "https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659";
+        const appStoreUrl = "https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8";
         const playStoreUrl = "https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share";
         const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera;
 

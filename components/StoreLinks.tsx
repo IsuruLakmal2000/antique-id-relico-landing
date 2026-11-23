@@ -5,7 +5,7 @@ export function StoreLinks() {
         <div className="flex flex-wrap gap-4 items-center">
             {/* App Store */}
             <Link
-                href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+                href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-black text-white rounded-lg px-4 py-2 transition-transform hover:scale-105 active:scale-95 border border-white/10"

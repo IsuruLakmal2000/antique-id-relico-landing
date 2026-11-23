@@ -50,7 +50,7 @@ export function relatedSlugsFor(slug: string): string[] {
 const CTA = `
       <h3>Identify Your Piece With Relico</h3>
       <p>Not sure what you are holding? Photograph it with Relico for likely identification, era, and a value range.</p>
-      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
 `;
 
 const B = "https://antiqueidentifier.site/blog/";

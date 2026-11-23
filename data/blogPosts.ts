@@ -416,7 +416,7 @@ const baseBlogPosts: BlogPost[] = [
           </p>
           <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
@@ -616,7 +616,7 @@ const baseBlogPosts: BlogPost[] = [
           </p>
           <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
@@ -808,7 +808,7 @@ const baseBlogPosts: BlogPost[] = [
           </p>
           <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
@@ -1119,7 +1119,7 @@ const baseBlogPosts: BlogPost[] = [
           </p>
           <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
@@ -1390,7 +1390,7 @@ const baseBlogPosts: BlogPost[] = [
           </p>
           <div class="flex flex-wrap gap-4 justify-center items-center">
             <a
-              href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659"
+              href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center bg-black text-white rounded-lg px-6 py-3 transition-all hover:scale-105 active:scale-95 border border-white/10 shadow-md hover:shadow-xl"
@@ -1837,7 +1837,7 @@ const baseBlogPosts: BlogPost[] = [
       <p>Relico's AI analyses joinery, style, marks, and materials from your photo and returns the item name, period, origin, and estimated value instantly. No expertise required.</p>
     </div>
     <div class="app-cta-buttons">
-      <a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659" class="btn-store">
+      <a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8" class="btn-store">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
         App Store
       </a>
@@ -1925,7 +1925,7 @@ const baseBlogPosts: BlogPost[] = [
       <p>The Relico app identifies antiques by photo using all seven of these techniques simultaneously — joinery, marks, style, hardware, and more — in the time it takes to snap a picture. Free to download on iOS and Android.</p>
     </div>
     <div class="app-cta-buttons">
-      <a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659" class="btn-store">
+      <a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8" class="btn-store">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
         App Store
       </a>
@@ -2100,7 +2100,7 @@ const baseBlogPosts: BlogPost[] = [
 
       <p>Whether you've inherited a mystery piece, found something promising at a sale, or are building a serious collection, Relico gives you expert-level style identification in seconds. Download the app, snap a photo, and discover exactly what you're working with — age, style, origin, and value.</p>
 
-      <p><strong><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download Relico on the App Store</a></strong> | <strong><a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></strong></p>
+      <p><strong><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download Relico on the App Store</a></strong> | <strong><a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></strong></p>
 
       <hr />
 
@@ -2192,7 +2192,7 @@ const baseBlogPosts: BlogPost[] = [
 
       <h3>Ready to Identify Your Antiques?</h3>
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
-      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
   },
   {
@@ -2279,7 +2279,7 @@ const baseBlogPosts: BlogPost[] = [
 
       <h3>Ready to Identify Your Antiques?</h3>
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
-      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
   },
   {
@@ -2393,7 +2393,7 @@ const baseBlogPosts: BlogPost[] = [
 
       <h3>Ready to Identify Your Antiques?</h3>
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
-      <p><a href="https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
   }
 ];

@@ -91,4 +91,4 @@ Vintage toys reward patience more than luck. The same four questions apply no ma
 
 Download Relico now and start discovering the hidden value in your treasures.
 
-[Download on the App Store](https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659) | [Get it on Google Play](https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share)
+[Download on the App Store](https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8) | [Get it on Google Play](https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share)

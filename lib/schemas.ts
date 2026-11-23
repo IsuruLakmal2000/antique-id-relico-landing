@@ -34,7 +34,7 @@ export const softwareApplicationSchema = {
     "description": "Identify antiques instantly with AI-powered antique identification. Discover the history, origin, age, and estimated value of your vintage items and collectibles.",
     "screenshot": "https://antiqueidentifier.site/Assets/header.png",
     "downloadUrl": [
-        "https://apps.apple.com/lk/app/antique-identifier-relico/id6755323659",
+        "https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8",
         "https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp"
     ]
 };
