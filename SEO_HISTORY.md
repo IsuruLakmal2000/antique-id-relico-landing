@@ -31,3 +31,7 @@ Cadence: 1 article / 2 days. Check this file first to avoid cannibalization and 
 ## 2026-11-17 (second run)
 | 2026-11-17 | antique-jewelry-hallmarks-gold-marks-guide | antique jewelry hallmarks | Jewelry | ~1,700 words, 2 tables, FAQ x5, links to silver hallmarks, real-vs-fake, valuation. Added to "marks" cluster. Unsplash image 1515562141207 unverified (no network). |
 - Backlog next: antique clocks/watches, pottery vs porcelain, British silver date letters, rugs, lithographs, Sri Lanka/South Asia antiques.
+
+## 2026-11-23
+| 2026-11-23 | how-to-identify-antique-clocks-guide | how to identify antique clocks | Horology | ~1455 words, table, FAQ x5, links to marks, furniture, real-vs-fake, valuation, photo. Added to collectibles cluster. Image unverified (no network). |
+- Backlog next: pottery vs porcelain, British silver date letters, rugs, lithographs, cameras, Sri Lanka/South Asia antiques. Still no analytics access.

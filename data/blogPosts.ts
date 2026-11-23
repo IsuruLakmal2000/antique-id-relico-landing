@@ -2395,6 +2395,108 @@ const baseBlogPosts: BlogPost[] = [
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
       <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
+  },
+  {
+    id: "16",
+    title: "How to Identify Antique Clocks: Movements, Makers, Dating and Value",
+    slug: "how-to-identify-antique-clocks-guide",
+    excerpt: "Identify an antique clock by its movement, maker's mark, dial and case. Includes regional maker table, dating checklist, fake and married-clock warning signs, and values.",
+    author: "Relico Editorial Team",
+    date: "November 23, 2026",
+    readTime: "9 min read",
+    category: "Horology",
+    imageUrl: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?q=80&w=2044&auto=format&fit=crop",
+    content: `
+      <h2>How to Identify an Antique Clock: The Short Answer</h2>
+      <p><strong>An antique clock is identified by four things: its movement type, the maker's signature or label, its case style and materials, and the construction details that date it, such as the escapement, dial, and screws.</strong> Start with the movement, because it is the hardest part to fake and the most reliable evidence of age. A clock is generally called antique when it is at least 100 years old, which today means made before about 1925.</p>
+
+      <h2>Step 1: Open the Case and Read the Movement</h2>
+      <p><strong>The movement is the mechanism inside the clock that drives the hands and strikes the hours, and it carries most of the dating evidence.</strong> Open the back or remove the hood and look for stamped names, serial numbers, and patent dates on the backplate.</p>
+      <ul>
+        <li><strong>Longcase and bracket clocks (1660 to 1830):</strong> hand-filed brass plates, hand-cut gear teeth, and slightly uneven pillars point to English or Continental workshop production.</li>
+        <li><strong>Verge escapement (before about 1800):</strong> a crown wheel and a pivoting bar called the verge. Typical of early bracket clocks and lantern clocks.</li>
+        <li><strong>Anchor escapement (from about 1670):</strong> a curved anchor-shaped piece rocking over the escape wheel. Standard in longcase clocks and many later wall clocks.</li>
+        <li><strong>Machine-stamped plates (after about 1850):</strong> perfectly uniform gear teeth and stamped brass plates indicate factory production, common in American and German clocks.</li>
+        <li><strong>Platform and lever escapements:</strong> small self-contained units found in carriage clocks, mostly French, from about 1830 onward.</li>
+      </ul>
+
+      <h2>Step 2: Find the Maker's Signature and Origin</h2>
+      <p><strong>A maker's mark on a clock may appear on the dial, the backplate, a paper label inside the case, or a stamped trademark, and it links the piece to a country and a date range.</strong> English clocks of quality are often engraved on the dial or backplate with the maker's name and town. French clocks usually carry a round stamp on the backplate, often with a serial number. American shelf clocks frequently have a paper label glued inside the case, which is valuable evidence if it is intact.</p>
+      <table>
+        <thead>
+          <tr><th>Region</th><th>Typical clues</th><th>Notable makers and period</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>England</td><td>Engraved dial names, brass dials, fusee movements, mahogany or oak cases</td><td>Thomas Tompion (1670s to 1713), Thomas Mudge (1750s to 1794), Vulliamy (1780s to 1850s)</td></tr>
+          <tr><td>France</td><td>Round backplate stamp with serial number, gilt brass carriage cases, porcelain panels</td><td>Japy Freres (1800s), Henri Lepaute (1800s), Paul Garnier (1830s to 1860s)</td></tr>
+          <tr><td>Germany</td><td>Black Forest cuckoo clocks, Junghans and Lenzkirch trademarks, regulator wall clocks</td><td>Junghans (from 1861), Lenzkirch (1851 to 1932), Gustav Becker (1847 to 1930s)</td></tr>
+          <tr><td>United States</td><td>Paper labels, wooden gear movements before 1840, stencilled glass tablets</td><td>Eli Terry (1800s), Seth Thomas (from 1813), Ansonia (from 1850s), E. Ingraham (from 1860s)</td></tr>
+          <tr><td>Switzerland and Austria</td><td>Fine lever escapements, pocket watch and wall regulator work</td><td>Vienna regulators (1800s), Patek Philippe (from 1839)</td></tr>
+        </tbody>
+      </table>
+      <p>If a clock carries symbols or stamps you cannot place, our guide to <a href="https://antiqueidentifier.site/blog/antique-marks-and-symbols-decoding-guide">decoding antique marks and symbols</a> explains how to read common maker stamps across categories.</p>
+
+      <h2>Step 3: Examine the Dial and Hands</h2>
+      <p><strong>The dial is the clock's face, and its material, numerals, and finish are among the quickest dating indicators.</strong></p>
+      <ul>
+        <li><strong>Brass dials with engraved chapter rings (1660 to 1770):</strong> silvered or engraved numbers on a brass ring, often with spandrel ornaments in the corners.</li>
+        <li><strong>Painted iron or "white" dials (about 1770 to 1880):</strong> enamel-painted iron, usually with Roman numerals, common on longcase clocks from Birmingham and similar centres.</li>
+        <li><strong>Enamel dials:</strong> fused glass on copper, standard on French mantel and carriage clocks. Hairline cracks near the winding holes are common and acceptable; large chips lower value.</li>
+        <li><strong>Paper or printed dials (after about 1850):</strong> typical for inexpensive American and German factory clocks.</li>
+        <li><strong>Hands:</strong> hand-pierced hands, such as spade and moon styles, suit earlier clocks. Stamped and uniform hands suggest later production or replacement.</li>
+      </ul>
+
+      <h2>Step 4: Judge the Case Style and Material</h2>
+      <p><strong>Case style places a clock in an era, and the wood, metal, and joinery show whether the case and movement belong together.</strong> Oak was favoured in England before 1700, walnut with marquetry in the late 17th century, and mahogany from about 1750. French cases of the 19th century often use gilt bronze, black slate, or marble. American cases follow the Federal, Empire, Victorian, and Arts and Crafts styles in turn. If you are unsure whether a wooden case is truly period, the checks in our guide to <a href="https://antiqueidentifier.site/blog/how-to-tell-if-furniture-is-antique">telling if furniture is antique</a> apply: look for hand-cut dovetails, saw marks, and consistent wear.</p>
+
+      <h2>Quick Dating Checklist for Antique Clocks</h2>
+      <ul>
+        <li>Check the backplate for names, numbers, and patent dates.</li>
+        <li>Identify the escapement: verge, anchor, or lever.</li>
+        <li>Look for evidence of hand-filed work versus stamped plates.</li>
+        <li>Match the dial type to the case style and period.</li>
+        <li>Inspect screws: hand-cut screws with slotted, uneven threads suggest age; identical machine screws suggest later work or repair.</li>
+        <li>Look for paper labels, retailer names, and old repair scratches inside the case.</li>
+        <li>Check that the movement fits the case holes and marks. A mismatch signals a "marriage" of parts.</li>
+      </ul>
+
+      <h2>How to Spot a Fake or Married Clock</h2>
+      <p><strong>A "married" clock is one whose movement, dial, or case came from different clocks, and it is the most common problem in the antique clock market.</strong> Reproductions also exist, particularly of longcase clocks and French carriage clocks. Warning signs include fresh, unworn screw holes in the case, a dial that does not line up with the seat board, brand-new brass with artificial patina, and imported quartz movements hidden in old-looking cases. Real age shows as consistent oxidation, dirty oil residues around pivots, and wear on winding squares. Our broader checklist on <a href="https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques">identifying real versus fake antiques</a> covers the general tests for patina and construction.</p>
+
+      <h2>What Is an Antique Clock Worth?</h2>
+      <p><strong>An antique clock's value depends on maker, rarity, originality, condition, and whether it is in working order, and these factors outweigh age alone.</strong></p>
+      <ul>
+        <li><strong>Early English longcase and bracket clocks by known makers:</strong> typically thousands to tens of thousands of dollars.</li>
+        <li><strong>French carriage clocks:</strong> commonly a few hundred to a few thousand dollars, with striking or repeating mechanisms at the top end.</li>
+        <li><strong>American shelf and wall clocks:</strong> often $100 to $1,000, with early Terry or tall-case pieces fetching more.</li>
+        <li><strong>Mass-produced German and American clocks:</strong> usually modest, with value tied to case quality and working condition.</li>
+      </ul>
+      <p>Original paint, case finish, and movement matter most. Heavy restoration or replaced parts can reduce value by half or more. For a full method of comparing sold prices and condition adjustments, see our <a href="https://antiqueidentifier.site/blog/how-much-is-my-antique-worth-complete-valuation-guide-2026">complete antique valuation guide</a>.</p>
+
+      <blockquote>Rule of thumb: original and imperfect is almost always worth more than perfect and restored. Do not polish, re-varnish, or re-oil a clock before it has been assessed.</blockquote>
+
+      <h2>Caring for an Antique Clock</h2>
+      <p><strong>Antique clock care means keeping the clock level, dry, and out of direct sun, and having a qualified horologist service the movement every few years rather than oiling it yourself.</strong> Never wind a clock that is stuck, never force a hand, and remove pendulums and weights before moving a longcase clock.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>How can I tell how old my clock is?</h3>
+      <p>Check the backplate for a maker's name and serial number, identify the escapement, and match the dial and case style to a period. A paper label or patent date on the movement gives the earliest possible date of manufacture.</p>
+      <h3>Are old clocks with quartz movements antique?</h3>
+      <p>The case may be old, but a quartz movement was fitted after 1970, so the clock as a whole is not original. Value is usually much lower than for a clock with its original mechanical movement.</p>
+      <h3>Where is the serial number on an antique clock?</h3>
+      <p>Most often on the backplate of the movement, sometimes on the dial rim, inside the case, or on the pendulum bob. French clocks usually stamp it beside the round maker's mark.</p>
+      <h3>Is a heavy brass clock more valuable?</h3>
+      <p>Not necessarily. Weight can indicate solid brass or marble, but many mass-produced 19th century clocks are heavy. Maker, originality, and condition drive value.</p>
+      <h3>Should I repair an antique clock before selling it?</h3>
+      <p>Only with a qualified horologist. Cleaning and minor adjustment can help, but replacing parts or refinishing the case can lower value for collectors.</p>
+
+      <h2>Identify Your Clock With Relico</h2>
+      <p>If you have inherited a mantel clock or found a wall clock at an estate sale, Relico can help. Photograph the dial, case, and any marks on the movement, and the app suggests likely era, style, and a value range that you can then verify against sold prices. Our guide to <a href="https://antiqueidentifier.site/blog/how-to-identify-antiques-by-photo">identifying antiques by photo</a> shows which angles give the best results.</p>
+
+      <h3>Ready to Identify Your Antiques?</h3>
+      <p>Download Relico now and start discovering the hidden value in your treasures.</p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+    `
   }
 ];
 
