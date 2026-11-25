@@ -35,3 +35,11 @@ Cadence: 1 article / 2 days. Check this file first to avoid cannibalization and 
 ## 2026-11-23
 | 2026-11-23 | how-to-identify-antique-clocks-guide | how to identify antique clocks | Horology | ~1455 words, table, FAQ x5, links to marks, furniture, real-vs-fake, valuation, photo. Added to collectibles cluster. Image unverified (no network). |
 - Backlog next: pottery vs porcelain, British silver date letters, rugs, lithographs, cameras, Sri Lanka/South Asia antiques. Still no analytics access.
+
+## 2026-11-25
+| 2026-11-25 | how-to-identify-antique-rugs-guide | how to identify antique rugs | Textiles | ~1,400 words, table, FAQ x5, links to real-vs-fake, photo, valuation. New category (textiles). Image reused from clocks post (no network to verify a rug image; replace with unique rug art). Added to collectibles cluster. |
+- Backlog next: pottery vs porcelain, British silver date letters, lithographs/prints, cameras, coins, Sri Lanka/South Asia antiques. No analytics access still.
+
+## 2026-11-25
+| 2026-11-25 | how-to-identify-antique-rugs-guide | how to identify antique rugs | Textiles | ~1,400 words, table, FAQ x5, links to real-vs-fake, photo, valuation. New category (textiles). Image reused from clocks post (no network to verify a rug image; replace with unique rug art). Added to collectibles cluster. |
+- Backlog next: pottery vs porcelain, British silver date letters, lithographs/prints, cameras, coins, Sri Lanka/South Asia antiques. No analytics access still.

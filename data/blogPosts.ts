@@ -2497,6 +2497,121 @@ const baseBlogPosts: BlogPost[] = [
       <p>Download Relico now and start discovering the hidden value in your treasures.</p>
       <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
     `
+  },
+  {
+    id: "17",
+    title: "How to Identify Antique Rugs: Knots, Dyes, Regions and Value",
+    slug: "how-to-identify-antique-rugs-guide",
+    excerpt: "Identify an antique rug by its knots, dyes, design and region. Includes hand-knotted vs machine-made tests, natural dye table, regional styles, fakes and values.",
+    author: "Relico Editorial Team",
+    date: "November 25, 2026",
+    readTime: "8 min read",
+    category: "Textiles",
+    imageUrl: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?q=80&w=2044&auto=format&fit=crop",
+    content: `
+      <h2>How to Identify an Antique Rug: The Short Answer</h2>
+      <p><strong>An antique rug is identified by its knots, materials, dyes, design and structure, and a rug is generally called antique when it is at least 100 years old.</strong> Turn the rug over first, because the back shows the knots and weave far more clearly than the pile does.</p>
+      <p>Handmade rugs from Persia, Turkey, the Caucasus, Central Asia, India and China are the most collected. This guide explains how to tell a hand-knotted rug from a machine-made copy, how to date it, and what drives value. For general authenticity habits that apply to every category, see our guide to <a href="https://antiqueidentifier.site/blog/how-to-identify-real-vs-fake-antiques">telling real antiques from fakes</a>.</p>
+
+      <h2>Step 1: Hand-Knotted or Machine-Made?</h2>
+      <p><strong>A hand-knotted rug has each knot tied individually around the warp threads, so the design is visible, slightly irregular, and identical on the back.</strong> A machine-made rug is woven or tufted mechanically and looks perfectly uniform.</p>
+      <ul>
+        <li><strong>Check the back:</strong> in a hand-knotted rug the pattern appears on the reverse as clearly as on the front, with small dots of individual knots.</li>
+        <li><strong>Check the fringe:</strong> on a handmade rug the fringe is the warp threads continuing through the rug. On a machine-made rug it is usually sewn or glued on.</li>
+        <li><strong>Look for irregularity:</strong> slight changes in line, width and color (called abrash) are normal in handmade pieces.</li>
+        <li><strong>Part the pile:</strong> in a hand-knotted rug you can see individual knots at the base. Printed rugs show a pattern on the surface only.</li>
+        <li><strong>Check the backing:</strong> a glued cloth or latex backing means tufted or machine production.</li>
+      </ul>
+
+      <h2>Step 2: Identify the Knot Type</h2>
+      <p><strong>The knot type is a regional fingerprint: Turkish (symmetrical) knots are used in Turkey and the Caucasus, while Persian (asymmetrical) knots are used in Iran, India and parts of China.</strong></p>
+      <ul>
+        <li><strong>Symmetrical (Turkish, Ghiordes) knot:</strong> wraps around two warp threads, looks like a small bump pair, and is sturdy with a slightly blockier line.</li>
+        <li><strong>Asymmetrical (Persian, Senneh) knot:</strong> wraps one thread and passes beside the other, allowing finer curved detail.</li>
+        <li><strong>Jufti knot:</strong> a knot tied over four warps to save time. It signals a cheaper, coarser rug.</li>
+      </ul>
+      <p>Count knots per square inch by measuring one inch on the back and counting knots in both directions, then multiplying. Higher counts usually mean finer work, though a high count alone does not make a rug valuable.</p>
+
+      <h2>Step 3: Materials and Dyes</h2>
+      <p><strong>Antique rugs use wool, silk or cotton for pile, and natural dyes made from plants and insects before the 1860s, when synthetic aniline dyes began to spread.</strong> Dye is one of the strongest dating clues.</p>
+      <table>
+        <thead>
+          <tr><th>Feature</th><th>Natural dyes (before about 1860s)</th><th>Early synthetic dyes (1860s onward)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Color character</td><td>Soft, varied, mellow tones</td><td>Harsh, bright oranges, purples, magentas</td></tr>
+          <tr><td>Aging</td><td>Fades evenly and gracefully</td><td>Fades unevenly or bleeds</td></tr>
+          <tr><td>Common sources</td><td>Madder (red), indigo (blue), weld (yellow), walnut (brown)</td><td>Aniline and later chrome dyes</td></tr>
+          <tr><td>Value impact</td><td>Strongly positive</td><td>Neutral to negative if harsh</td></tr>
+        </tbody>
+      </table>
+      <p>Part the pile and compare the color at the base with the tip. A large difference can show fading or later repainting. Wool that feels lustrous and springy is usually older, finer village or workshop wool. Cotton foundations are common in later or workshop pieces, while older nomadic rugs typically have wool warps.</p>
+
+      <h2>Step 4: Read the Design and Region</h2>
+      <p><strong>The design tells you where a rug was made: curvilinear floral patterns suggest city workshops, while geometric patterns point to tribal and village weaving.</strong> Regional style is the quickest path to an attribution.</p>
+      <ul>
+        <li><strong>Persian city rugs (Kashan, Isfahan, Tabriz, Kerman):</strong> medallions, vines and palmettes on a fine foundation, from the 16th century onward.</li>
+        <li><strong>Persian tribal rugs (Qashqai, Bakhtiari, Baluch):</strong> bold geometric motifs, often in wool on wool.</li>
+        <li><strong>Turkish rugs (Oushak, Anatolian prayer rugs, Hereke):</strong> Oushak is known for large-scale patterns and soft palettes, Hereke for silk court rugs from the late 19th century.</li>
+        <li><strong>Caucasian rugs (Kazak, Shirvan, Karabagh):</strong> bold geometric forms and saturated colors.</li>
+        <li><strong>Turkoman rugs (Bokhara, Yomut, Tekke):</strong> repeated guls (octagonal motifs) in deep reds.</li>
+        <li><strong>Indian and Chinese rugs:</strong> Indian Agra and Mahal workshop rugs date mostly to the 19th century onward, while Chinese rugs often use sculpted pile and Buddhist or dragon motifs.</li>
+      </ul>
+
+      <h2>Step 5: Check Age and Condition Signs</h2>
+      <p><strong>Wear on an authentic old rug is uneven and logical, concentrated where people walked and along the edges, while artificial aging is uniform and often too perfect.</strong></p>
+      <ul>
+        <li>Selvedges (side edges) should show natural wear and old overcasting, not new stitching on old wool.</li>
+        <li>Moth damage appears as low patches. Dry rot makes wool crumble and breaks easily when bent.</li>
+        <li>Look for repairs: reknotted areas, patched corners, and reweaving. Skilled repair is acceptable, but heavy restoration reduces value.</li>
+        <li>Stains, dye run (bleeding of reds into whites), and sun fade on one side suggest the rug's history.</li>
+        <li>An old rug should smell of wool and dust, not chemicals. Strong chemical odor can indicate harsh washing or artificial aging.</li>
+      </ul>
+
+      <h2>Common Fakes and Misleading Claims</h2>
+      <p><strong>The most common deception is a machine-made or tufted rug sold as hand-knotted, followed by chemically washed new rugs sold as antique.</strong> Be wary of the following.</p>
+      <ul>
+        <li>"Antique washed" or "aged" rugs, where new rugs are treated with chemicals or sun to simulate age.</li>
+        <li>Printed designs on a plain weave, which show no knots on the back.</li>
+        <li>Inflated labels such as "Persian" for rugs made in Pakistan, India or Turkey in a Persian style.</li>
+        <li>Rugs with woven-in signatures that are copied from famous workshops.</li>
+      </ul>
+      <p>Photograph the back, the fringe and a close view of the pile before buying or consigning, and compare it with documented examples. Our guide on <a href="https://antiqueidentifier.site/blog/how-to-identify-antiques-by-photo">identifying antiques by photo</a> explains which angles help most.</p>
+
+      <h2>What Is an Antique Rug Worth?</h2>
+      <p><strong>An antique rug's value depends on age, origin, knot quality, natural dyes, design, size and condition, and the best examples sell for thousands to hundreds of thousands of dollars.</strong></p>
+      <ul>
+        <li><strong>Decorative 20th century machine-made or semi-antique rugs:</strong> typically under a few hundred dollars.</li>
+        <li><strong>Good hand-knotted Persian or Turkish rugs from about 1900 to 1940:</strong> commonly hundreds to a few thousand dollars.</li>
+        <li><strong>Fine 19th century tribal and workshop rugs in good condition:</strong> often several thousand dollars.</li>
+        <li><strong>Rare 16th to 18th century or museum-quality pieces:</strong> can reach six or seven figures at major auctions.</li>
+      </ul>
+      <p>Condition is critical: full pile, original color and intact ends bring the highest prices, and professional cleaning rather than aggressive washing protects value. To learn the method for researching comparable sales, read our <a href="https://antiqueidentifier.site/blog/how-much-is-my-antique-worth-complete-valuation-guide-2026">complete antique valuation guide</a>.</p>
+
+      <blockquote>Rule of thumb: natural dyes, hand-knotted construction and original condition matter more than size or a high knot count alone.</blockquote>
+
+      <h2>Caring for an Antique Rug</h2>
+      <p><strong>Antique rug care means rotating the rug, avoiding direct sunlight, using a breathable pad, and having it professionally cleaned by a rug specialist.</strong> Vacuum gently without a beater bar, and keep the fringe away from the vacuum head. Store rugs rolled, not folded, with the pile facing inward, and never keep them in plastic, which traps moisture.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>How can I tell if a rug is hand-knotted?</h3>
+      <p>Look at the back. A hand-knotted rug shows the pattern clearly with small irregular knots, and the fringe is part of the rug itself. A machine-made rug has a uniform, often glued backing and sewn-on fringe.</p>
+      <h3>How old does a rug need to be to be antique?</h3>
+      <p>A rug is generally considered antique at 100 years or older, semi-antique at 50 to 100 years, and vintage between roughly 20 and 50 years.</p>
+      <h3>Are old rugs with faded colors worth less?</h3>
+      <p>Not always. Even, natural fading from natural dyes can be attractive and valuable. Uneven or chemical fading, or very harsh synthetic colors, usually lowers value.</p>
+      <h3>Does a high knot count mean a more valuable rug?</h3>
+      <p>No. Knot density shows fineness, but design, dyes, rarity, age and condition matter equally. Some prized tribal rugs have modest knot counts.</p>
+      <h3>Should I wash an antique rug myself?</h3>
+      <p>No. Natural dyes can bleed, and wool can shrink or weaken. Use a professional who specializes in antique and handmade rugs.</p>
+
+      <h2>Identify Your Rug With Relico</h2>
+      <p>If you have inherited a rug or found one at an estate sale, Relico can help you get started. Photograph the front, the back, the fringe and any labels, and the app suggests likely origin, style and era so you know what to research next.</p>
+
+      <h3>Ready to Identify Your Antiques?</h3>
+      <p>Download Relico now and start discovering the hidden value in your treasures.</p>
+      <p><a href="https://apps.apple.com/app/apple-store/id6755323659?pt=127969199&ct=relico-landing&mt=8">Download on the App Store</a> | <a href="https://play.google.com/store/apps/details?id=com.circularx.antiqueidapp&pcampaignid=web_share">Get it on Google Play</a></p>
+    `
   }
 ];
 

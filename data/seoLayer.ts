@@ -34,7 +34,7 @@ export const clusters: Record<string, string[]> = {
   identification: [PHOTO, "how-do-you-know-if-something-is-antique", "how-to-identify-real-vs-fake-antiques", "antique-marks-and-symbols-decoding-guide"],
   furniture: [FURNITURE, "how-to-identify-real-vs-fake-antiques"],
   marks: ["antique-marks-and-symbols-decoding-guide", "antique-silver-hallmarks-explained", "antique-porcelain-marks-identification-guide", "antique-jewelry-hallmarks-gold-marks-guide", "vintage-glass-identification-beginners-guide"],
-  collectibles: ["how-to-identify-valuable-vintage-toys", "how-to-identify-antique-clocks-guide", "vintage-glass-identification-beginners-guide", "antique-porcelain-marks-identification-guide"],
+  collectibles: ["how-to-identify-valuable-vintage-toys", "how-to-identify-antique-clocks-guide", "how-to-identify-antique-rugs-guide", "vintage-glass-identification-beginners-guide", "antique-porcelain-marks-identification-guide"],
 };
 
 export function relatedSlugsFor(slug: string): string[] {
